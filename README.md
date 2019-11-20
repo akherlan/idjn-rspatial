@@ -10,7 +10,7 @@ Plot buffer area using `sp` and `sf` packages.
 
 Untuk menggambarkannya pada media lain (komputer) diperlukan hal-hal berikut:
 
-**1. Simple features (sf)**[^1] describes how objects in the real world could be represented in computers, with emphasis on the spatial geometry of these objects.[^2]
+**1. Simple features (sf)** describes how objects in the real world could be represented in computers, with emphasis on the spatial geometry of these objects.
 
 There are *geometry* (describing where on Earth) and *attributes* (related to its properties).
 
@@ -41,14 +41,14 @@ Lebih lanjut tentang sp: https://edzer.github.io/sp/
 
 Windows:
 
-- R from CRAN
-- RStudio
-- Rtools
+- R from [CRAN](https://cran.r-project.org/)
+- RStudio | [downlaod](https://rstudio.com/products/rstudio/download/)
+- Rtools | [downlaod](https://cran.r-project.org/bin/windows/Rtools/)
 
 Linux and MacOS:
 
-- R from CRAN
-- RStudio
+- R from [CRAN](https://cran.r-project.org/)
+- RStudio | [download](https://rstudio.com/products/rstudio/download/)
 - GDAL, GEOS, PROJ
 
 Library (Windows, MacOS, Linux):
@@ -124,7 +124,7 @@ Memastikan satuan yang digunakan telah sesuai dengan mendefinisikan kembali CRS:
 
 ```R
 library("sf")
-crs <- "..."							# mendefinisikan CRS
+crs <- "..."					# mendefinisikan CRS
 rs.mod <- st_transform(rs, crs)			# transformasi CRS objek rs
 units::set_units(rs.mod, km)			# mengubah satuan yang digunakan
 ```
@@ -133,8 +133,8 @@ Membuat area buffer:
 
 ```R
 buf <- st_buffer(geom, dist = 1000)
-plot(buf, border = "red")				# plot area buffer
-plot(geom, add = TRUE)					# menambahkan titik lokasi RS
+plot(buf, border = "red")			# plot area buffer
+plot(geom, add = TRUE)				# menambahkan titik lokasi RS
 ```
 
 Sekian. Terima kasih.
@@ -146,6 +146,3 @@ Sekian. Terima kasih.
 - Baca buku Robin Lovelace dan Jakub Nowosad
 - Baca dulu: http://strimas.com/r/tidy-sf/
 - Kata Wikipedia tentang sf: https://en.wikipedia.org/wiki/Simple_Features
-
-[^1]:Refers to a formal standard ISO 19125-1:2004
-[^2]:Simple Feature Access description in CRAN R Project
