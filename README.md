@@ -84,7 +84,7 @@ rs <- esri2sf(url)
 Atau load langsung dari file .rds yang sudah ada:
 
 ```R
-rs <- readRDS("https://www.github.com/akherlan/idjn-rspatial/data/rs.rds")
+rs <- readRDS("dir/containing/file.rds")
 ```
 
 Mengetahui kelas data/objek dan strukturnya:
