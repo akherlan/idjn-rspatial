@@ -2,35 +2,40 @@
 
 **TL;DR**
 
-Menggunakan R untuk mengetahui keterjangkauan layanan kesehatan (rumah sakit).
+Menggunakan bahasa R untuk mengetahui keterjangkauan layanan kesehatan (rumah sakit dan puskesmas).
 
 ## Introduction to #rspatial
 
-### Representasi Objek Nyata pada Komputer <- GEOS
+### Representasi Objek Nyata pada Komputer
 
-**1. Simple features (sf)** describes how objects in the real world could be represented in computers, with emphasis on the spatial geometry of these objects.
+**1. Simple features** <- diatur oleh GEOS
 
-There are *geometry* (describing where on Earth) and *attributes* (related to its properties).
+Menjelaskan bagaimana objek-objek dalam dunia nyata bisa diwakilkan ke dalam komputer, dengan penekanan pada bentuk (geometri) spasial objek tersebut.
 
-Mostly 2-dimensional geometries such as:
+- *geometry* menjelaskan tentang bentuk benda/objek tersebut di Bumi.
+- *attributes* berhubungan dengan sifat-sifatnya (properties).
 
-- point
-- line
-- polygon
-- multi-point
-- multi-line
-- etc.
+Geometri yang sering digunakan adalah dalam dimensi 2, seperti:
 
-**2. Coordinates Reference System (CRS)** <- PROJ
+- titik (point), misal: lokasi
+- garis (line), misal: jalan, batas wilayah
+- poligon (polygon), misal: luas area, kawasan hutan
+- kumpulan titik (multi-point)
+- kumpulan garis (multi-line)
+- dll.
 
-- Proyeksi: longlat, UTM
-- Datum: WGS 84 (EPSG:4326), NAD27 (EPSG:4267), etc.
+**2. Coordinates Reference System (CRS)** <- diatur oleh PROJ
+
+Menjelaskan kedudukan benda/objek di muka Bumi.
+
+- Proyeksi, misal: longlat, UTM
+- Datum, misal: WGS 84 (EPSG:4326), NAD27 (EPSG:4267), etc.
 
 ### `sp` dan `sf`
 
 `sp`: Classes and Methods for Spatial Data.
 
-- Its documentation -> [`help(sp)`](https://cran.r-project.org/web/packages/sp/index.html)
+- Dokumentasinya -> [`help(sp)`](https://cran.r-project.org/web/packages/sp/index.html)
 - Lebih lanjut tentang `sp`: https://edzer.github.io/sp/
 
 `sf`: Simple Features for R
@@ -46,24 +51,24 @@ Mostly 2-dimensional geometries such as:
 
 ## Requirements (Tools)
 
-Windows:
+**Windows:**
 
 - R from [CRAN](https://cran.r-project.org/)
 - RStudio | [downlaod](https://rstudio.com/products/rstudio/download/)
 - Rtools | [downlaod](https://cran.r-project.org/bin/windows/Rtools/)
 
-Linux and MacOS:
+**Linux and MacOS:**
 
 - R | installation
 - RStudio | [download](https://rstudio.com/products/rstudio/download/)
 - GDAL, GEOS, PROJ
 
-Library (Windows, MacOS, Linux):
+**Library (Windows, MacOS, Linux):**
 
 - `sp`, `sf` (rspatial) >> [installation and more about `sf`](http://r-spatial.github.io/sf/)
 - `tidyr`, `dplyr` (tidy data)
 - `ggplot2`, `ggmap`, `leaflet` (visualization)
-- `rnaturalearth`, `esri2sf (dev)` (sources)
+- `rnaturalearth`, `esri2sf (dev)` (data sources)
 
 ## Data Preparation
 
@@ -81,10 +86,10 @@ Mengunduh data dari portal geospasial Indonesia:
 url <- "https://portal.ina-sdi.or.id/arcgis/rest/services/Lingkungan_Terbangun/RBI_50K_Fasilitas_Kesehatan/MapServer/1"
 rs <- esri2sf(url)
 ```
-Atau load langsung dari file .rds yang sudah ada:
+Atau load langsung dari file .rds yang sudah ada di dalam folder data:
 
 ```R
-rs <- readRDS("dir/containing/file.rds")
+rs <- readRDS("data/rs.rds")
 ```
 
 Mengetahui kelas data/objek dan strukturnya:
@@ -95,18 +100,18 @@ str(rs)
 tibble::as_tibble(rs)
 ```
 
-## Visualization: `sf`
+## Visualization using `sf`
 
-Plot data
+Plot data:
 
 ```R
 library("sf")
 plot(st_geometry(rs))
 ```
 
-**Bagaimana jika datanya berbentuk tabular xlsx atau csv?**
+*Q: Bagaimana jika datanya berbentuk tabular xlsx atau csv?*
 
-Unduh sampel data melalui [tautan ini](#)
+*My homework: Sediakan cara impor data dari xlsx atau csv.*
 
 **Plot data RS ke peta Indonesia**
 
@@ -114,12 +119,15 @@ Memuat peta Indonesia dari Natural Earth
 
 ```R
 id <- rnaturalearth::ne_countries(country = "indonesia")
-plot(id)
+plot(id) # sometimes error, modification is needed
 plot(st_geometry(rs), add = TRUE)
 ```
-*PR: Potong/subset bbox*
 
-Memuat data peta North Carolina dari sampel data milik `sf`
+*Q : Bagaimana cara menampilkan potongan hanya untuk wilayah tertentu?*
+
+*My homework: Potong/subset dengan mendefinisikan bbox-nya.*
+
+Contoh lain: Memuat data peta North Carolina dari sampel data milik `sf`
 
 ```R
 nc <- st_read(system.file("shape/nc.shp", package = "sf"))
@@ -165,7 +173,7 @@ plot(buf, border = "red")			# plot area buffer
 plot(geom, add = TRUE)				# menambahkan titik lokasi RS
 ```
 
-Sekian. Terima kasih.
+Sekian. Terima kasih. Nanti kita modifikasi lagi.
 
 ## Referensi
 
