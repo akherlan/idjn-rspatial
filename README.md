@@ -1,6 +1,6 @@
 # Visualisasi Data Spasial dengan R
 
-Materi untuk IDJN Meet up oleh [Andi](https://www.twitter.com/terusterang__)
+Materi IDJN meet up 28 Nop 2019 oleh [Andi](https://www.twitter.com/terusterang__)
 
 **TL;DR**
 
@@ -23,6 +23,9 @@ Geometri yang sering digunakan adalah dalam dimensi 2, seperti:
 - garis (line), misal: jalan, batas wilayah
 - poligon (polygon), misal: luas area, kawasan hutan
 
+![Perbedaan berbagai fitur](assets/features_diff.png "Feature geometry oleh Levinson")
+Perbedaan berbagai feature (credit to [Levinson](https://transportist.org/2019/11/06/catchment-if-you-can-the-effect-of-station-entrance-and-exit-locations-on-accessibility/))
+
 **2. Coordinates Reference System (CRS)** <- diatur oleh PROJ
 
 Menjelaskan kedudukan benda/objek di muka Bumi.
@@ -41,11 +44,9 @@ Menjelaskan kedudukan benda/objek di muka Bumi.
 
 - hadir untuk melengkapi "kekosongan" fungsional pada `sp`
 - menggunakan format tabel (data.frames atau tibbles) dengan lengkap dengan geometry dan CRS-nya
-- represents natively in R all 17 simple feature types for all dimensions (XY, XYZ, XYM, XYZM)
-- interfaces to GEOS to support the DE9-IM
-- interfaces to GDAL, supporting all driver options, Date and DateTime (POSIXct) columns, and coordinate reference system transformations through PROJ
-- reads from and writes to spatial databases such as PostGIS using DBI
-- is extended by pkg lwgeom for further liblwgeom/PostGIS functions, including spherical geometry functions
+- merepresentasikan 17 bentuk/tipe sf secara langsung di R untuk semua dimensi (XY, XYZ, XYM, XYZM)
+- integrasi langsung dengan GEOS, PROJ, dan GDAL (`sp` dibantu dengan library `rgeos` dan `rgdal`)
+- dll.
 
 ## Requirements (Tools)
 
@@ -83,7 +84,7 @@ Install `esri2sf` untuk mengunduh data Esri Shapefile (.shp) spasial dari server
 
 ```R
 if(!require("devtools")) install.packages("devtools")
-devtools::install_github("yonghah/esri2sf")
+devtools::install_github("yonghah/esri2sf", force = TRUE)
 library("esri2sf")
 ```
 
@@ -122,9 +123,12 @@ Bagaimana jika datanya berbentuk tabular dalam berkas atau .csv?
 
 ```R
 rs.tbl <- read.csv("data/rs.csv")
-puskes.tbl <- read.csv("data/puskes.csv")
+str(rs.tbl) # melihat struktur data/objek
+head(rs.tbl)  # menampilkan 6 baris pertama data
 ```
-*PR (1): ubah format tabular ke format sf*
+
+*PR (1): bersihkan data*
+*PR (2): ubah format tabular ke format sf*
 
 **2. Plot data RS ke peta Indonesia**
 
@@ -139,7 +143,7 @@ plot(st_geometry(rs), add = TRUE)
 ```R
 # Memuat peta Kota Pontianak
 pontianak <- read_sf("data/peta/pontianak_kota.shp")
-plot(sf_geometry(pontianak))
+plot(st_geometry(pontianak))
 
 # plot titik dari area of interest, masih ada warning
 bb_pontianak <- st_bbox(pontianak)
@@ -149,6 +153,14 @@ rs %>%
   st_crop(bb_pontianak) %>% 
   st_geometry() %>% 
   plot(add = TRUE)
+```
+
+Plot dengan `ggplot2`
+
+```R
+library(ggplot2)
+ggplot() + geom_sf(data = pontianak) + theme_bw()
+ggplot(add = TRUE) + geom_sf(data = st_crop(rs, bb_pontianak))
 ```
 
 **4. Transformasi referensi koordinat (CRS)**
@@ -163,27 +175,54 @@ st_crs(pontianak)
 Untuk mengubah CRS ke nilai tertentu, lakukan:
 
 ```R
-crs <- "4328" # perlu diganti yang UTM
-rs.utm <- st_transform(rs, crs)
-pontianak.utm <- st_transform(pontianak, crs)
+crs.id <- 23838 # ambil dari web epsg.io
+
+rs.id <- st_transform(rs, crs.id)
+pontianak.id <- st_transform(pontianak, crs.id)
+
+st_crs(rs.id)
+st_crs(pontianak.id)
+
+pontianak %>% 
+  st_geometry() %>% 
+  plot()
+
+pontianak.id %>% 
+  st_geometry() %>% 
+  plot(add = TRUE) # PR: harus diberi warna
 ```
 
-**5. Membuat buffer area**
-
-Memastikan satuan yang digunakan telah sesuai dengan mendefinisikan kembali CRS:
+Lalu di mana letak perbedaannya? Mari kita telaah:
 
 ```R
-crs <- "..."					# mendefinisikan CRS
-rs.mod <- st_transform(rs, crs)			# transformasi CRS
-units::set_units(rs.mod, m)			# mengubah satuan yang digunakan
+st_bbox(rs)
+st_bbox(rs.id)
 ```
+
+Apa yang berbeda?
+
+**5. Membuat buffer area**
 
 Membuat batas area:
 
 ```R
-buf <- st_buffer(geom, dist = 1000)
-plot(buf, border = "red")			# plot area buffer
-plot(geom, add = TRUE)				# menambahkan titik lokasi RS
+buff <- st_buffer(st_geometry(rs.id), dist = 1000)
+
+aoi <- st_bbox(pontianak.id)
+
+pontianak.id %>% 
+  st_geometry() %>% 
+  plot(border = "blue")
+
+rs.id %>%
+  st_crop(aoi) %>% 
+  st_geometry() %>% 
+  plot(add = TRUE)
+
+buff %>%
+  st_crop(aoi) %>% 
+  st_geometry() %>% 
+  plot(add = TRUE, border = "red")
 ```
 
 Sekian. Terima kasih. Nanti kita modifikasi lagi.
