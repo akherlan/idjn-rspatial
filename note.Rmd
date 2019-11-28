@@ -84,7 +84,7 @@ sudo apt-get install r-base
 
 **Library (Windows, MacOS, Linux):**
 
-```{r muat package diperlukan, message=FALSE, warning=FALSE}
+```{R muat package diperlukan, message=FALSE, warning=FALSE}
 if(!require("sf")) install.packages("sf")
 if(!require("dplyr")) install.packages("dplyr")
 if(!require("rnaturalearth")) install.packages("rnaturalearth")
@@ -97,13 +97,13 @@ Pada meet up lalu, kita telah belajar tentang cara mendapatkan data titik sebara
 
 Muat data tersebut dari file .rds yang ada di dalam folder data:
 
-```{r muat data}
+```{R}
 rs <- readRDS("data/data.rds")
 ```
 
 Mengetahui kelas data/objek dan strukturnya:
 
-```{r struktur data}
+```{R struktur data}
 class(rs)
 print(rs, n = 5)
 ```
@@ -114,7 +114,7 @@ Secara default kita bisa menampilkan data spasial menggunakan library `sf`.
 
 **1. Cara plot objek kelas `sf`**
 
-```{r plot sf}
+```{R plot sf}
 plot(st_geometry(rs))
 ```
 
@@ -124,6 +124,13 @@ plot(st_geometry(rs))
 id <- rnaturalearth::ne_countries(country = "indonesia", returnclass = "sf")
 plot(st_geometry(id))
 plot(st_geometry(rs), add = TRUE)
+```
+
+Untuk peta yang lebih interaktif:
+
+```{r}
+library(mapview)
+mapview(rs)
 ```
 
 **3. Menampilkan lokasi RS di wilayah Pontianak**
@@ -138,7 +145,7 @@ plot(st_geometry(pontianak), graticule = TRUE, axes = TRUE)
 
 Membatasi data RS hanya untuk wilayah Pontianak:
 
-```{r bbox}
+```{r eval=FALSE}
 bb_pontianak <- st_bbox(pontianak)
 
 library(dplyr)
@@ -146,13 +153,6 @@ rs %>%
   st_crop(bb_pontianak) %>% 
   st_geometry() %>% 
   plot(add = TRUE)
-```
-
-Untuk peta yang lebih interaktif:
-
-```{r}
-library(mapview)
-mapview(rs)
 ```
 
 **4. Transformasi referensi koordinat (CRS)**
@@ -196,11 +196,11 @@ Klasifikasi wilayah untuk analisis pola jangkauan masyarakat ke fasilitas pelaya
 - 0-1000 meter, sangat dekat
 - 1001-2000 meter, sedang
 - 2001-3000 meter, jauh
-- >3000 meter, tidak terjangkau
+- lebih dari 3000 meter, tidak terjangkau
 
 Membuat batas area:
 
-```{r membuat buffer area}
+```{R membuat buffer area}
 dekat <- st_buffer(st_geometry(rs.id), dist = 1000)
 sedang <- st_buffer(st_geometry(rs.id), dist = 2000)
 jauh <- st_buffer(st_geometry(rs.id), dist = 3000)
@@ -235,38 +235,18 @@ jauh %>%
 
 **5. Plot dengan `ggplot2`**
 
-```{r plot ggplot2}
+```{R plot ggplot2}
 library(ggplot2)
 ggplot() +
   geom_sf(data = pontianak) +
   theme_bw() +
-  geom_sf(data = st_crop(rs, bb_pontianak))
+  geom_sf(data = st_crop(st_geometry(sedang), aoi),
+          fill = "green",
+          alpha = 0.05) +
+  geom_sf(data = st_crop(rs.id, aoi))
 ```
 
-Sekian. Terima kasih. Nanti kita modifikasi lagi.
-
-```{r ggmap, eval=FALSE, include=FALSE}
-library(ggplot2)
-library(ggmap)
-library(sf)
-
-#our background map
-lon = 109
-lat = 0.05
-pontianak_map <- get_map(center = c(lon,lat))
-
-#final map
-ggmap(mad_map)+
-  geom_sf(data=st_geometry(rs),
-          inherit.aes =FALSE,
-          colour="#238443",
-          fill="#004529",
-          alpha=.5,
-          size=4,
-          shape=21)+
-  labs(x="",y="")
-```
-
+Sekian. Terima kasih.
 
 ## Referensi dan Bahan Bacaan
 
