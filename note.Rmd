@@ -2,6 +2,8 @@
 title: "Analisis Data Spasial dengan R"
 author: "Andi K. Herlan"
 output:
+  pdf_document:
+    toc: yes
   html_document:
     toc: yes
     toc_collapsed: yes
@@ -44,19 +46,14 @@ Menjelaskan kedudukan benda/objek di muka Bumi.
 - Proyeksi, misal: longlat, zona UTM
 - Datum, misal: WGS 84, NAD27, etc.
 
-### Library `sp` dan `sf`
-
-`sp`: Classes and Methods for Spatial Data.
-
-- Dokumentasinya -> [`help(sp)`](https://cran.r-project.org/web/packages/sp/index.html)
-- Lebih lanjut tentang `sp` | [Edzer (the author of both sp and sf)](https://edzer.github.io/sp/)
+### Library `sf`
 
 `sf`: Simple Features for R
 
-- hadir untuk melengkapi "kekosongan" fungsional pada `sp`
 - menggunakan format tabel (data.frames atau tibbles) dengan lengkap dengan geometry dan CRS-nya
-- merepresentasikan 17 bentuk/tipe sf secara langsung di R untuk semua dimensi (XY, XYZ, XYM, XYZM)
-- integrasi langsung dengan GEOS, GDAL dan PROJ (`sp` dibantu dengan library `rgeos` dan `rgdal`)
+- Semua fungsi dimuali dengan `st_` sehingga mudah menggunakan tab completion di RStudio
+- merepresentasikan 17 bentuk/tipe simple feature secara langsung di R untuk semua dimensi (XY, XYZ, XYM, XYZM)
+- fungsi-fungsi dari `sp`, `rgeos`, `rgdal` bisa dilakukan di `sf`
 
 ## Requirements (Tools)
 
@@ -66,23 +63,23 @@ Menjelaskan kedudukan benda/objek di muka Bumi.
 - RStudio | [unduh](https://rstudio.com/products/rstudio/download/)
 - Rtools | [unduh](https://cran.r-project.org/bin/windows/Rtools/)
 
-**Linux:**
+**Linux & MacOS:**
 
 - R
 - RStudio | [unduh](https://rstudio.com/products/rstudio/download/)
-- GEOS, GDAL, PROJ
+- GDAL, GEOS, PROJ | [konfigurasi](https://r-spatial.github.io/sf/#installing)
+
+*Install R di Ubuntu*
 
 ```{}
 sudo apt-get install r-base
-sudo apt-get install libgeos gdal-bin proj-bin
 ```
 
 **Library (Windows, MacOS, Linux):**
 
-```{R Loading requirements, message=FALSE, warning=FALSE}
+```{R muat package diperlukan, message=FALSE, warning=FALSE}
 if(!require("sf")) install.packages("sf")
 if(!require("dplyr")) install.packages("dplyr")
-if(!require("tidyr")) install.packages("tidyr")
 if(!require("rnaturalearth")) install.packages("rnaturalearth")
 ```
 
@@ -93,15 +90,14 @@ Pada meet up lalu, kita telah belajar tentang cara mendapatkan data titik sebara
 Muat data tersebut dari file .rds yang ada di dalam folder data:
 
 ```{R}
-rs <- readRDS("data/rs.rds")
+rs <- readRDS("data/data.rds")
 ```
 
 Mengetahui kelas data/objek dan strukturnya:
 
-```{R}
+```{R struktur data}
 class(rs)
-str(rs)
-head(rs, 10)
+# print(rs, n = 5)
 ```
 
 ## Plot Data Spasial Menggunakan `sf`
@@ -110,34 +106,30 @@ Secara default kita bisa menampilkan data spasial menggunakan library `sf`.
 
 **1. Cara plot objek kelas `sf`**
 
-```{R}
-library("sf")
+```{R plot sf}
 plot(st_geometry(rs))
 ```
 
 Bagaimana jika datanya berbentuk tabular dalam berkas atau .csv?
 
-```{R}
-rs.tbl <- read.csv("data/rs.csv")
-str(rs.tbl) # melihat struktur data/objek
-head(rs.tbl)  # menampilkan 6 baris pertama data
+```{R impor csv}
+puskes.tbl <- read.csv("data/puskes.csv")
+print(puskes.tbl, n = 5) # melihat struktur data/objek
 ```
 
-*PR (1): bersihkan data*
+*PR : ubah format tabular ke format sf*
 
-*PR (2): ubah format tabular ke format sf*
+**2. Plot data lokasi RS ke peta Indonesia**
 
-**2. Plot data RS ke peta Indonesia**
-
-```{R}
+```{R plot data ke peta indonesia}
 id <- rnaturalearth::ne_countries(country = "indonesia", returnclass = "sf")
 plot(st_geometry(id))
 plot(st_geometry(rs), add = TRUE)
 ```
 
-**3. Menampilkan RS di wilayah Pontianak**
+**3. Menampilkan lokasi RS di wilayah Pontianak**
 
-```{R}
+```{R plot data ke peta pontianak}
 # Memuat peta Kota Pontianak
 pontianak <- read_sf("data/peta/pontianak_kota.shp")
 plot(st_geometry(pontianak))
@@ -152,16 +144,6 @@ rs %>%
   plot(add = TRUE)
 ```
 
-Plot dengan `ggplot2`
-
-```{R}
-library(ggplot2)
-ggplot() +
-  geom_sf(data = pontianak) +
-  theme_bw() +
-  geom_sf(data = st_crop(rs, bb_pontianak))
-```
-
 **4. Transformasi referensi koordinat (CRS)**
 
 Memperoleh informasi CRS dari data sebaran RS dan peta:
@@ -173,7 +155,7 @@ st_crs(pontianak)
 
 Untuk mengubah CRS ke nilai tertentu, lakukan:
 
-```{R}
+```{R definisikan crs}
 crs.id <- 23838 # ambil dari web epsg.io
 
 rs.id <- st_transform(rs, crs.id)
@@ -193,7 +175,7 @@ pontianak.id %>%
 
 Lalu di mana letak perbedaannya? Mari kita telaah:
 
-```{R}
+```{R perbedaan units pada bbox}
 st_bbox(rs)
 st_bbox(rs.id)
 ```
@@ -204,7 +186,7 @@ Apa yang berbeda?
 
 Membuat batas area:
 
-```{R}
+```{R membuat buffer area}
 buff <- st_buffer(st_geometry(rs.id), dist = 1000)
 
 aoi <- st_bbox(pontianak.id)
@@ -224,6 +206,16 @@ buff %>%
   plot(add = TRUE, border = "red")
 ```
 
+**5. Plot dengan `ggplot2`**
+
+```{R plot ggplot2}
+library(ggplot2)
+ggplot() +
+  geom_sf(data = pontianak) +
+  theme_bw() +
+  geom_sf(data = st_crop(rs, bb_pontianak), pch = 0.3)
+```
+
 Sekian. Terima kasih. Nanti kita modifikasi lagi.
 
 ## Referensi dan Bahan Bacaan
@@ -234,4 +226,4 @@ Sekian. Terima kasih. Nanti kita modifikasi lagi.
 - Modifikasi data spasial kelas `sf` | [tidy sf](http://strimas.com/r/tidy-sf/)
 - Cara menggunakan `esri2sf` | [Materi meet up lalu oleh @wanulfa](https://github.com/wanulfa/argis-server)
 - Plotting peta dengan `sf` dan `ggplot2` | [artikel](https://www.r-bloggers.com/zooming-in-on-maps-with-sf-and-ggplot2/)
-- Baca buku Robin Lovelace dan Jakub Nowosad
+- Buku [Geocomputational in R](https://geocompr.robinlovelace.net/spatial-class.html) oleh Robin Lovelace & Jakub Nowosad
