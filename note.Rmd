@@ -35,25 +35,31 @@ Geometri yang sering digunakan adalah dalam dimensi 2, seperti:
 - garis (line), misal: jalan, batas wilayah
 - poligon (polygon), misal: luas area, kawasan hutan
 
-![Perbedaan berbagai fitur](assets/features_diff.png "Feature geometry oleh Levinson")
-
-Credit image to [Levinson](https://transportist.org/2019/11/06/catchment-if-you-can-the-effect-of-station-entrance-and-exit-locations-on-accessibility/)
+![Perbedaan objek geometri](assets/features_diff.png "Feature geometry oleh Levinson")
 
 #### 2. Coordinate Reference System (CRS)
 
 Menjelaskan kedudukan benda/objek di muka Bumi.
 
-- Proyeksi, misal: longlat, zona UTM
+- Proyeksi, misal: longlat, UTM, geocent
 - Datum, misal: WGS 84, NAD27, etc.
+
+Cara-cara proyeksi:
+
+![Proyeksi peta](assets/projections.png)
+
+Apa sebenarnya datum?
+
+![Datum](assets/datum.gif)
 
 ### Library `sf`
 
 `sf`: Simple Features for R
 
-- menggunakan format tabel (data.frames atau tibbles) dengan lengkap dengan geometry dan CRS-nya
-- Semua fungsi dimuali dengan `st_` sehingga mudah menggunakan tab completion di RStudio
-- merepresentasikan 17 bentuk/tipe simple feature secara langsung di R untuk semua dimensi (XY, XYZ, XYM, XYZM)
+- menggunakan format tabel (data.frames atau tibbles) lengkap dengan geometry dan CRS-nya
+- semua besar fungsi dimulai dengan `st_` sehingga mudah menggunakan *tab completion* di RStudio
 - fungsi-fungsi dari `sp`, `rgeos`, `rgdal` bisa dilakukan di `sf`
+- ramah terhadap `dplyr` dan `tidyr`
 
 ## Requirements (Tools)
 
@@ -69,9 +75,10 @@ Menjelaskan kedudukan benda/objek di muka Bumi.
 - RStudio | [unduh](https://rstudio.com/products/rstudio/download/)
 - GDAL, GEOS, PROJ | [konfigurasi](https://r-spatial.github.io/sf/#installing)
 
-*Install R di Ubuntu*
+*Instalasi R di Ubuntu*
 
 ```{}
+sudo apt-get update
 sudo apt-get install r-base
 ```
 
@@ -215,7 +222,7 @@ library(ggplot2)
 ggplot() +
   geom_sf(data = pontianak) +
   theme_bw() +
-  geom_sf(data = st_crop(rs, bb_pontianak), pch = 0.3)
+  geom_sf(data = st_crop(rs, bb_pontianak))
 ```
 
 Sekian. Terima kasih. Nanti kita modifikasi lagi.
@@ -226,8 +233,8 @@ library(ggmap)
 library(sf)
 
 #our background map
-lon = 106.3
-lat = 0
+lon = 109
+lat = 0.05
 pontianak_map <- get_map(center = c(lon,lat))
 
 #final map
@@ -252,3 +259,9 @@ ggmap(mad_map)+
 - Cara menggunakan `esri2sf` | [Materi meet up lalu oleh @wanulfa](https://github.com/wanulfa/argis-server)
 - Plotting peta dengan `sf` dan `ggplot2` | [artikel](https://www.r-bloggers.com/zooming-in-on-maps-with-sf-and-ggplot2/)
 - Buku [Geocomputational in R](https://geocompr.robinlovelace.net/spatial-class.html) oleh Robin Lovelace & Jakub Nowosad
+
+**Gambar:**
+
+- Perbandingan objek geometri oleh [Levinson](https://transportist.org/2019/11/06/catchment-if-you-can-the-effect-of-station-entrance-and-exit-locations-on-accessibility/)
+- Proyeksi peta oleh [Battersby, S.](https://gistbok.ucgis.org/bok-topics/map-projections)
+- Datum dari ArcGIS
