@@ -32,7 +32,7 @@ Menjelaskan bagaimana objek-objek dalam dunia nyata bisa diwakilkan ke dalam kom
 Geometri yang sering digunakan adalah dalam dimensi 2, seperti:
 
 - titik (point), misal: lokasi
-- garis (line), misal: jalan, batas wilayah
+- garis (linestring), misal: jalan, batas wilayah
 - poligon (polygon), misal: luas area, kawasan hutan
 
 ![Perbedaan objek geometri](assets/features_diff.png "Feature geometry oleh Levinson")
@@ -84,10 +84,11 @@ sudo apt-get install r-base
 
 **Library (Windows, MacOS, Linux):**
 
-```{R muat package diperlukan, message=FALSE, warning=FALSE}
+```{r muat package diperlukan, message=FALSE, warning=FALSE}
 if(!require("sf")) install.packages("sf")
 if(!require("dplyr")) install.packages("dplyr")
 if(!require("rnaturalearth")) install.packages("rnaturalearth")
+if(!require("mapview")) install.packages("mapview")
 ```
 
 ## Data Preparation
@@ -96,15 +97,15 @@ Pada meet up lalu, kita telah belajar tentang cara mendapatkan data titik sebara
 
 Muat data tersebut dari file .rds yang ada di dalam folder data:
 
-```{R}
+```{r muat data}
 rs <- readRDS("data/data.rds")
 ```
 
 Mengetahui kelas data/objek dan strukturnya:
 
-```{R struktur data}
+```{r struktur data}
 class(rs)
-# print(rs, n = 5)
+print(rs, n = 5)
 ```
 
 ## Plot Data Spasial Menggunakan `sf`
@@ -113,19 +114,8 @@ Secara default kita bisa menampilkan data spasial menggunakan library `sf`.
 
 **1. Cara plot objek kelas `sf`**
 
-```{R plot sf}
+```{r plot sf}
 plot(st_geometry(rs))
-```
-
-
-```{R impor csv}
-
-# Bagaimana jika datanya berbentuk tabular dalam berkas atau .csv?
-
-# puskes.tbl <- read.csv("data/puskes.csv")
-# print(puskes.tbl, n = 5) # melihat struktur data/objek
-
-# *PR : ubah format tabular ke format sf*
 ```
 
 **2. Plot data lokasi RS ke peta Indonesia**
@@ -138,12 +128,17 @@ plot(st_geometry(rs), add = TRUE)
 
 **3. Menampilkan lokasi RS di wilayah Pontianak**
 
-```{R plot data ke peta pontianak}
+Kita juga bisa menggunakan data ESRI Shapefile (format .shp):
+
+```{r plot data ke peta pontianak}
 # Memuat peta Kota Pontianak
 pontianak <- read_sf("data/peta/pontianak_kota.shp")
-plot(st_geometry(pontianak))
+plot(st_geometry(pontianak), graticule = TRUE, axes = TRUE)
+```
 
-# plot titik dari area of interest, masih ada warning
+Membatasi data RS hanya untuk wilayah Pontianak:
+
+```{r bbox}
 bb_pontianak <- st_bbox(pontianak)
 
 library(dplyr)
@@ -151,6 +146,13 @@ rs %>%
   st_crop(bb_pontianak) %>% 
   st_geometry() %>% 
   plot(add = TRUE)
+```
+
+Untuk peta yang lebih interaktif:
+
+```{r}
+library(mapview)
+mapview(rs)
 ```
 
 **4. Transformasi referensi koordinat (CRS)**
@@ -175,11 +177,7 @@ st_crs(pontianak.id)
 
 pontianak %>% 
   st_geometry() %>% 
-  plot()
-
-pontianak.id %>% 
-  st_geometry() %>% 
-  plot(add = TRUE) # PR: harus diberi warna
+  plot(graticule = TRUE, axes = TRUE)
 ```
 
 Lalu di mana letak perbedaannya? Mari kita telaah:
@@ -193,31 +191,51 @@ Apa yang berbeda?
 
 **5. Membuat buffer area**
 
+Klasifikasi wilayah untuk analisis pola jangkauan masyarakat ke fasilitas pelayanan kesehatan adalah sebagai berikut:
+
+- 0-1000 meter, sangat dekat
+- 1001-2000 meter, sedang
+- 2001-3000 meter, jauh
+- >3000 meter, tidak terjangkau
+
 Membuat batas area:
 
-```{R membuat buffer area}
-buff <- st_buffer(st_geometry(rs.id), dist = 1000)
+```{r membuat buffer area}
+dekat <- st_buffer(st_geometry(rs.id), dist = 1000)
+sedang <- st_buffer(st_geometry(rs.id), dist = 2000)
+jauh <- st_buffer(st_geometry(rs.id), dist = 3000)
 
 aoi <- st_bbox(pontianak.id)
 
 pontianak.id %>% 
   st_geometry() %>% 
-  plot(border = "blue")
+  plot(border = "gray")
 
 rs.id %>%
   st_crop(aoi) %>% 
   st_geometry() %>% 
   plot(add = TRUE)
 
-buff %>%
+dekat %>%
+  st_crop(aoi) %>% 
+  st_geometry() %>% 
+  plot(add = TRUE, border = "green")
+
+sedang %>%
+  st_crop(aoi) %>% 
+  st_geometry() %>% 
+  plot(add = TRUE, border = "blue")
+
+jauh %>%
   st_crop(aoi) %>% 
   st_geometry() %>% 
   plot(add = TRUE, border = "red")
+
 ```
 
 **5. Plot dengan `ggplot2`**
 
-```{R plot ggplot2}
+```{r plot ggplot2}
 library(ggplot2)
 ggplot() +
   geom_sf(data = pontianak) +
