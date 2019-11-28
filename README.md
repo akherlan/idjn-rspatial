@@ -45,7 +45,6 @@ sudo apt-get install r-base
 ```R
 install.packages("sf")
 install.packages("dplyr")
-install.packages("tidyr")
 install.packages("rnaturalearth")
 ```
 
@@ -57,4 +56,4 @@ install.packages("rnaturalearth")
 - Modifikasi data spasial kelas `sf` | [tidy sf](http://strimas.com/r/tidy-sf/)
 - Cara menggunakan `esri2sf` | [Materi meet up lalu oleh Wanulfa](https://github.com/wanulfa/argis-server)
 - Plot peta dengan `sf` dan `ggplot2` | [artikel](https://www.r-bloggers.com/zooming-in-on-maps-with-sf-and-ggplot2/)
-- Buku Robin Lovelace dan Jakub Nowosad
+Buku [Geocomputational in R](https://geocompr.robinlovelace.net/spatial-class.html) oleh Robin Lovelace & Jakub Nowosad
