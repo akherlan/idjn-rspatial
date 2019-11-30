@@ -1,4 +1,4 @@
-# visualisasi -----
+# VISUALIZATION USING `ggplot2` -----
 
 library(ggplot2)
 library(sf)
@@ -140,15 +140,24 @@ ggplot() +
   ) +
   theme_bw()
 
-# Excercise: plot Indonesia -----
+# TASK: PLOT INDONESIA -----
 
-# get info
+# get world map
+w <- ne_countries(
+  scale = "medium",
+  type = "map_units",
+  returnclass = "sf"
+)
 
+# transform projection
+target_crs <- "+proj=moll"
+w_trans <- st_transform(w, target_crs)
+
+# get coord info
 id <- w[w$name == "Indonesia",]
 st_bbox(id)
 
 # transform
-
 to_trans <- st_sfc(
   st_point(c(95.206641, -10.909668)),
   st_point(c(140.976172, 5.907031)), crs = 4326
@@ -159,12 +168,10 @@ p_transformed <- st_transform(to_trans, target_crs)
 p_transformed
 
 # boundaries
-
 xlim_id <- c(9435069, 14082689)
 ylim_id <- c(-1345798, 729878.2)
 
 # finally, plot
-
 ggplot() + 
   geom_sf(data = w_trans) +
   coord_sf(xlim = xlim_id, ylim = ylim_id) +
