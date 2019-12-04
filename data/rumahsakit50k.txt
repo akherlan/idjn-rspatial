@@ -1,0 +1,1022 @@
+OBJECTID	NAMOBJ	REMARK	x	y
+1	 	Rumah Sakit Umum	108.979312247	1.173532368
+2	Rumah Sakit Umum Kartika Husada Kubu Raya	Rumah Sakit Umum	109.376114674	-0.071363185999985
+3	Rumah Sakit Umum Mitra Medika	Rumah Sakit Umum	109.329610521	-0.038072896000017
+4	Rumah Sakit Jiwa Sungaibangkong	Rumah Sakit Khusus	109.326969716	-0.0280885949999856
+5	Rumah Sakit Umum Santo Antonius	Rumah Sakit Umum	109.326376938	-0.0206009290000111
+6	Rumah Sakit Umum Graha Bunda	Rumah Sakit Umum	109.354887994	-0.0616137700000081
+7	Rumah Sakit Bersalin Nabasa	Rumah Sakit Khusus	109.357097315	-0.0763096389999873
+8	Rumah Sakit Umum Daerah Dokter Sudarso	Rumah Sakit Umum	109.364607627	-0.0623466029999804
+9	Rumah Sakit Umum Anton Soedjarwo	Rumah Sakit Umum	109.333661761	-0.0408309289999806
+10	Rumah Sakit Umum Bhayangkara	Rumah Sakit Umum	109.333868361	-0.0411926720000224
+11	Rumah Sakit Umum Daerah Sultan Syarif Mohamad Al Kadrie	Rumah Sakit Umum	109.29407483	-0.00867220100002442
+12	Rumah Sakit Umum Islam Yarsi	Rumah Sakit Umum	109.357493691	-0.0361923720000163
+13	Rumah Sakit Bersalin Harapan Anda Sungairaya	Rumah Sakit Khusus	109.368703094	-0.0848198310000043
+14	Rumah Sakit Umum Daerah Dr.Rubini Mempawah	Rumah Sakit Umum	108.961749881	0.357186730000024
+15	Rumah Sakit Umum Daerah Dr.Abul Aziz	Rumah Sakit Umum	108.972697953	0.894956265000019
+16	Rumah Sakit Umum Santo Vincentius	Rumah Sakit Umum	108.986021532	0.905931199000008
+17	Rumah Sakit Umum Harapan Bersama	Rumah Sakit Umum	108.992013699	0.904153633000021
+18	Rumah Sakit Umum Khusus Avenue	Rumah Sakit Umum	108.978700939	0.889679290999993
+19	Rumah Sakit Umum Tingkat IV	Rumah Sakit Umum	108.992941445	0.915754659000015
+20	Rumah Sakit Jiwa Kalimantan Barat	Rumah Sakit Khusus	109.108966249	0.871157795999977
+21	Rumah Sakit Umum Bekesda	Rumah Sakit Umum	109.332953703	0.797677798999985
+22	Rumah Sakit Umum Bengkayang	Rumah Sakit Umum	109.483903052	0.826741335000008
+23	Rumah Sakit Umum ST.Elisabeth	Rumah Sakit Umum	109.300163563	1.36271527299999
+24	Rumah Sakit Umum Daerah Sambas	Rumah Sakit Umum	109.305865597	1.36791016199999
+25	Rumah Sakit Umum Daerah Kabupaten Landak	Rumah Sakit Umum	109.978355865	0.379573820000019
+26	Rumah Sakit Umum Daerah Landak	Rumah Sakit Umum	109.955559433	0.381958868000027
+27	Rumah Sakit Umum Parindu	Rumah Sakit Umum	110.319164173	0.260263650000013
+28	Proyek Pembangunan Rumah Sakit Alam Sehat Lestari	Rumah Sakit Umum	109.9614709	-1.25157990000002
+29	RSUD Dr. Agoesdjam Sampit	Rumah Sakit Umum	109.967326	-1.83269899999999
+30	Rumah Sakit Fatima 	Rumah Sakit Umum	109.978306	-1.84216300000003
+31	Rumah Sakit Pratama Balaikarangan	Rumah Sakit Umum	110.424708	0.819747000000007
+32	RSUD Sekadau	Rumah Sakit Umum	110.923922	-0.00362899999998945
+33	RS Padangtikar Desa Padangtikar II 	Rumah Sakit Umum	109.26843	-0.689225000000022
+34	RSU Buntok	Rumah Sakit Umum	114.83306067	-1.72466551000002
+35	RSU Tamianglayang	Rumah Sakit Umum	115.17905164	-2.10171066999999
+36	RSUD Pulangpisau	Rumah Sakit Umum	114.26465297	-2.79387423999998
+37	RSUD Kualakapuas	Rumah Sakit Umum	114.38879508	-3.00969643000002
+38	RSU Kualakapuas	Rumah Sakit Umum	114.38867111	-3.00987521000002
+39	 	Rumah Sakit Umum	111.167541	-2.74191100000002
+40	RSUD Hanau	Rumah Sakit Umum	112.102720143	-2.49350878000001
+41	Lamanda	Rumah Sakit Umum	111.439132002	-2.19146100400002
+42	RSUD Puruk Cahu	Rumah Sakit Umum	114.563968032	-0.647469160000014
+43	RSUD Nunukan Desa Binusan	Rumah Sakit Umum	117.62558291	4.11163104000002
+44	 	Rumah Sakit Umum	112.923074596	0.869785143000001
+45	Rumah Sakit Umum Daerah Hadji Boejasain Pelaihari	Rumah Sakit Umum	114.778396	-3.79981099999998
+46	Rumah Sakit Borneo Citra Medika	Rumah Sakit Umum	114.775951	-3.78999900000002
+47	Rumah Sakit TK IV Guntungpayung	Rumah Sakit Umum	114.799664	-3.44937599999997
+48	Rumah Sakit TNI-AU Sjamsudin Noor	Rumah Sakit Umum	114.744213	-3.44466599999998
+49	RSUD Banjarbaru Kota Banjarbaru	Rumah Sakit Umum	114.827163	-3.441889
+50	Rumah Sakit Umum Mawar Banjarbaru	Rumah Sakit Umum	114.838129	-3.438963
+51	Rumah Sakit Pelita Insani Sekumpul	Rumah Sakit Umum	114.851736	-3.42381699999999
+52	Rumah Sakit Aveciena Medika	Rumah Sakit Umum	114.8497544	-3.42270000000002
+53	Rumah Sakit Umum Daerah Ratu Zalecha Martapura	Rumah Sakit Umum	114.846665	-3.41954700000002
+54	Rumah Sakit Jiwa Sambang Lihum	Rumah Sakit Khusus	114.703268	-3.40053799999998
+55	Rumah Sakit Bayangkara Banjarmasin	Rumah Sakit Umum	114.611015	-3.32936799999999
+56	Rumah Sakit Sari Mulia	Rumah Sakit Umum	114.605011	-3.32783899999998
+57	Rumah Sakit TPT Dr R Soeharsono	Rumah Sakit Umum	114.565008	-3.32443699999999
+58	Rumah Sakit Umum Daerah Ulin	Rumah Sakit Umum	114.600783	-3.32351
+59	Rumah Sakit Danausalak	Rumah Sakit Umum	114.952058	-3.32325800000001
+60	Rumah Sakit Gigi Dan Mulut Gusti Hasan Aman	Rumah Sakit Khusus	114.601929	-3.32208400000002
+61	Rumah Sakit Umum Suaka Insan	Rumah Sakit Umum	114.578905	-3.31288000000001
+62	Rumah Sakit Islam Banjarmasin	Rumah Sakit Umum	114.588598	-3.30736899999999
+63	Rumah Sakit Umum Daerah Dr HM Anshari Saleh	Rumah Sakit Umum	114.5893	-3.27946500000002
+64	Rumah Sakit Umum Daerah Kotabaru	Rumah Sakit Umum	116.214572	-3.25173899999999
+65	Rumah Sakit Umum Daerah H.Abdul Aziz Marabahan	Rumah Sakit Umum	114.7611659	-2.9813623
+66	Rumah Sakit Umum Daerah Datu Sanggul Rantau	Rumah Sakit Umum	115.1566707	-2.93095080000001
+67	Rumah Sakit Ceria Kandangan	Rumah Sakit Umum	115.258699	-2.80718200000001
+68	Rumah Sakit Umum Daerah Brigjen H Hasanbasry	Rumah Sakit Umum	115.2604015	-2.80081380000001
+69	Rumah Sakit Umum Daerah H Hasanbasry	Rumah Sakit Umum	115.25988	-2.80071099999998
+70	Rumah Sakit Pahlawan Medica Center	Rumah Sakit Umum	115.2648665	-2.78109799999999
+71	Rumah Sakit Herawati	Rumah Sakit Umum	117.11618029	-0.522367159999988
+72	RSUD Aji Batara Agung Dewa Sakti	Rumah Sakit Umum	117.04436	-1.01134100000002
+73	Rumah Sakit Bersalin Sayang Ibu	Rumah Sakit Umum	116.821497129	-1.23416257100001
+74	Rumah Sakit Islam (YARSI Kaltim Samarinda	Rumah Sakit Umum	117.15916109	-0.507489959999987
+75	Rumah Sakit Restu IbuBalikpapan Tengah	Rumah Sakit Umum	116.83742	-1.27234199999998
+76	Rumah Sakit Ibu dan Anak Permatahati	Rumah Sakit Umum	116.83133455	-1.27239100600002
+77	Rumah Sakit Pertamina Balikpapan	Rumah Sakit Umum	116.817113729	-1.279647388
+78	Rumah Sakit Umum Daerah Paser	Rumah Sakit Umum	116.734998487	-1.30873728500001
+79	Rencana Pembangunan Rumah Sakit Pratama	Rumah Sakit Umum	116.069335816	-2.24647242600003
+80	RSUD Panglima Sebaya Kabupaten Paser	Rumah Sakit Umum	116.178603	-1.87326100000001
+81	RSUD Panglima Sebaya	Rumah Sakit Umum	116.185531	-1.89991700000002
+82	Rumah Sakit Mulia Amuntai	Rumah Sakit Umum	115.25154085	-2.42406349999999
+83	RSUD Pembalahbatung	Rumah Sakit Umum	115.25494969	-2.41824360999999
+84	RSUD Damanhuri Barabai	Rumah Sakit Umum	115.374815	-2.58863600000001
+85	RSUD Taman Husada Bontang	Rumah Sakit Umum	117.449728986	0.141433971000026
+86	Rumah Sakit PKT Prima Sangatta	Rumah Sakit Umum	117.528220983	0.493730976999984
+87	RSUD Harapan Insan Sendawar	Rumah Sakit Umum	115.714402	-0.246999000000017
+88	Rumah Sakit BP Santa Familya Barongtongkok	Rumah Sakit Umum	115.679748	-0.236591999999973
+89	Rumah Sakit Ibu Dan Anak Aisyiyah Samarinda	Rumah Sakit Umum	117.153877979	-0.501706022999997
+90	Yayasan Rumah Sakit Islam (YARSI Samarinda	Rumah Sakit Umum	117.159252036	-0.507373028000018
+91	Rumah Sakit Jiwa Daerah Atma Husada Mahakam Samarinda	Rumah Sakit Khusus	117.159439037	-0.506123033999984
+92	Rumah Sakit Haji Darjad Samarinda	Rumah Sakit Umum	117.148649013	-0.494600013000024
+93	RSUD Abdul Wahab Sjahranie Samarinda	Rumah Sakit Umum	117.145189969	-0.479049990000021
+94	Rumah Sakit Dirgahayu Samarinda Ulu	Rumah Sakit Umum	117.136716032	-0.498738996999975
+95	Rumah Sakit Bhakti Nugraha Samarinda	Rumah Sakit Umum	117.147029964	-0.495810023999979
+96	Rumah Sakit Samarinda Medika Citra Samarinda	Rumah Sakit Umum	117.124796966	-0.472983000999989
+97	RSUD A.M. Parikesit Kutai Kartanegara	Rumah Sakit Umum	116.989675	-0.421428999999989
+98	RSUD Dayaku Raja Kotabangun	Rumah Sakit Umum	116.621266035	-0.249995039999988
+99	Rumah Sakit Pratama Talisayan	Rumah Sakit Umum	118.166627	1.61089199999998
+100	Detasemen Kesehatan Wilayah Tanjungredeb	Rumah Sakit Umum	117.484939	2.15257800000001
+101	Rumah Sakit Umum Daerah dr Abdul Rivai Tanjungredeb	Rumah Sakit Umum	117.493069	2.14683400000001
+102	Rumah Sakit Angkatan Laut Ilyas Tarakan	Rumah Sakit Khusus	117.60024	3.30849799999999
+103	Rumah Sakit Umum Daerah Kota Tarakan	Rumah Sakit Umum	117.604764	3.31785600000001
+104	Rumah Sakit Pertamedika Tarakan	Rumah Sakit Umum	117.582915	3.30994299999998
+105	Rumah Sakit Umum Daerah Kalimantan Utara	Rumah Sakit Umum	117.560557	3.34065600000002
+106	Rumah Sakit Umum Dr.Hj.Soemarno Sosro Atmodjo	Rumah Sakit Umum	117.380449	2.82991099999998
+107	Pos Kesehatan 06.10.02 Bulungan	Rumah Sakit Khusus	117.362898	2.83222799999999
+108	Rumah Sakit Umum Daerah Kabupaten Tanatidung	Rumah Sakit Umum	116.906661757	3.60065355
+109	Rumah Sakit Umum Daerah Kabupaten Malinau	Rumah Sakit Umum	116.609594	3.60258599999997
+110	Rumah Sakit Bergerak Langap	Rumah Sakit Khusus	116.473761	3.150418
+111	Rumah Sakit Umum Daerah Kudungga Kutai Timur	Rumah Sakit Umum	117.564909998	0.532033006000006
+112	Rumah Sakit Ibu Dan Anak Cahaya Sangatta	Rumah Sakit Umum	117.534950981	0.516810967000026
+113	Rumah Sakit Meloy	Rumah Sakit Umum	117.534712013	0.504817972000012
+114	Rumah Sakit Sangkulirang	Rumah Sakit Umum	117.975397026	0.986884022000027
+115	 	Rumah Sakit Umum	111.900464731	1.04221069599998
+116	 	Rumah Sakit Umum	127.098117353	-3.27699570200002
+117	 	Rumah Sakit Umum	130.800494499	-3.31938554099997
+118	 	Rumah Sakit Umum	130.718007439	-3.40284554300001
+119	 	Rumah Sakit Umum	130.629609631	-3.31920401299999
+120	 	Rumah Sakit Umum	130.857190845	-3.55015564399997
+121	 	Rumah Sakit Umum	130.89834476	-3.87911822699999
+122	 	Rumah Sakit Umum	130.305036358	-2.97518459600002
+123	 	Rumah Sakit Umum	129.837726812	-2.95764796999998
+124	 	Rumah Sakit Umum	129.7941726	-2.92493288999998
+125	 	Rumah Sakit Umum	129.928727479	-2.97814552599999
+126	 	Rumah Sakit Umum	129.863145023	-2.98059629800002
+127	 	Rumah Sakit Umum	129.819889565	-2.91544298500003
+128	 	Rumah Sakit Umum	129.010266162	-2.812461407
+129	 	Rumah Sakit Umum	129.186937911	-2.95885457700001
+130	 	Rumah Sakit Umum	129.059266256	-2.805529869
+131	 	Rumah Sakit Umum	129.201759877	-2.96577293399997
+132	 	Rumah Sakit Umum	129.077255485	-2.85565870599999
+133	 	Rumah Sakit Umum	130.49772722	-3.10807481400002
+134	 	Rumah Sakit Umum	130.493963615	-3.10599101399998
+135	 	Rumah Sakit Umum	130.258595	-3.06015212400001
+136	 	Rumah Sakit Umum	130.056418531	-3.00531128
+137	 	Rumah Sakit Umum	130.177966866	-3.05014072199998
+138	 	Rumah Sakit Umum	130.033882657	-3.04642704700001
+139	 	Rumah Sakit Umum	130.092134977	-3.01087509199999
+140	 	Rumah Sakit Umum	130.174608119	-3.04767508399999
+141	 	Rumah Sakit Umum	130.177186504	-3.01074995900001
+142	 	Rumah Sakit Umum	130.14208731	-3.01845785900002
+143	 	Rumah Sakit Umum	129.920185282	-3.03844361799997
+144	 	Rumah Sakit Umum	129.896976292	-3.33668018899999
+145	 	Rumah Sakit Umum	129.97270554	-3.415386867
+146	 	Rumah Sakit Umum	129.835314523	-3.329850679
+147	 	Rumah Sakit Umum	129.563402002	-3.41443077299999
+148	 	Rumah Sakit Umum	129.550611162	-3.463742018
+149	 	Rumah Sakit Umum	129.547755853	-3.38116889999998
+150	 	Rumah Sakit Umum	129.512706375	-3.30304085400002
+151	 	Rumah Sakit Umum	129.570989609	-3.30386835899998
+152	 	Rumah Sakit Umum	129.658488979	-3.31715743900003
+153	 	Rumah Sakit Umum	129.020170647	-3.20541138800002
+154	 	Rumah Sakit Umum	129.01255596	-3.20001948100003
+155	 	Rumah Sakit Umum	129.454970219	-3.43456308700002
+156	 	Rumah Sakit Umum	129.351791787	-3.41043371799998
+157	 	Rumah Sakit Umum	129.411705496	-3.41710445500001
+158	 	Rumah Sakit Umum	129.114811781	-3.34999425299998
+159	 	Rumah Sakit Umum	129.19949191	-3.38627695700001
+160	 	Rumah Sakit Umum	130.183287733	-3.54761441599999
+161	 	Rumah Sakit Umum	128.969983643	-2.83800100500002
+162	 	Rumah Sakit Umum	128.797681707	-2.86786596000002
+163	 	Rumah Sakit Umum	128.725223457	-2.86140933299998
+164	 	Rumah Sakit Umum	128.638162953	-2.85586644199998
+165	 	Rumah Sakit Umum	128.988038358	-3.17646101499997
+166	 	Rumah Sakit Umum	128.879561743	-3.20119761400002
+167	 	Rumah Sakit Umum	128.846353683	-3.23178104599998
+168	 	Rumah Sakit Umum	128.580044157	-3.14674711200001
+169	 	Rumah Sakit Umum	128.950680099	-3.30573277000002
+170	 	Rumah Sakit Umum	128.923681598	-3.34011870299997
+171	 	Rumah Sakit Umum	128.964515947	-3.29578165200002
+172	 	Rumah Sakit Umum	128.619123775	-3.42737628700002
+173	 	Rumah Sakit Umum	128.693177523	-3.34627068499998
+174	 	Rumah Sakit Umum	128.693769742	-3.40979798500001
+175	 	Rumah Sakit Umum	128.537866353	-3.44789445999999
+176	 	Rumah Sakit Umum	128.624390791	-3.28455641900001
+177	 	Rumah Sakit Umum	128.694714738	-3.49520060600003
+178	 	Rumah Sakit Umum	128.700431252	-3.49694849700001
+179	 	Rumah Sakit Umum	128.805376381	-3.65227424699998
+180	 	Rumah Sakit Umum	128.809154299	-3.67175301999998
+181	 	Rumah Sakit Umum	128.631967453	-3.573369356
+182	 	Rumah Sakit Umum	128.642851643	-3.53066377699997
+183	 	Rumah Sakit Umum	128.559450557	-3.55315413400001
+184	 	Rumah Sakit Umum	128.702183407	-3.59229374900002
+185	 	Rumah Sakit Umum	128.700347645	-3.58893677100002
+186	 	Rumah Sakit Umum	128.69063289	-3.50548552499998
+187	 	Rumah Sakit Umum	128.661320685	-3.57253933999999
+188	 	Rumah Sakit Umum	128.647418154	-3.57361065700002
+189	 	Rumah Sakit Umum	128.62043938	-3.58071966400001
+190	 	Rumah Sakit Umum	128.661388293	-3.60898892
+191	 	Rumah Sakit Umum	128.646637615	-3.61312671299999
+192	 	Rumah Sakit Umum	128.415378149	-3.53428429899998
+193	 	Rumah Sakit Umum	128.424118024	-3.552608964
+194	 	Rumah Sakit Umum	128.415203442	-3.59705779299998
+195	 	Rumah Sakit Umum	128.464230225	-3.51851856600001
+196	 	Rumah Sakit Umum	128.437738898	-3.62850866299999
+197	 	Rumah Sakit Umum	128.330677824	-3.60619960499997
+198	 	Rumah Sakit Umum	128.234401095	-3.73266979900001
+199	 	Rumah Sakit Umum	128.190023281	-3.69512505099999
+200	 	Rumah Sakit Umum	128.166014341	-3.70812895699999
+201	 	Rumah Sakit Umum	128.096718179	-3.58890006799999
+202	 	Rumah Sakit Umum	128.166134103	-3.587980243
+203	 	Rumah Sakit Umum	128.162836155	-3.65100013699998
+204	 	Rumah Sakit Umum	128.180734033	-3.58178790800002
+205	 	Rumah Sakit Umum	128.234004565	-3.627625765
+206	 	Rumah Sakit Umum	128.178456419	-3.70074100400001
+207	 	Rumah Sakit Umum	128.223571795	-3.65600355499998
+208	 	Rumah Sakit Umum	127.932784573	-3.679791658
+209	NA	Rumah Sakit Umum	128.009827463	1.73062148499997
+210	NA	Rumah Sakit Umum	127.996894523	1.72512382500003
+211	NA	Rumah Sakit Umum	128.293599682	0.901893142999995
+212	NA	Rumah Sakit Umum	128.291290628	0.687126416000012
+213	NA	Rumah Sakit Umum	127.865870475	0.331113642999981
+214	NA	Rumah Sakit Umum	127.375938567	0.782302830999981
+215	NA	Rumah Sakit Umum	127.384779659	0.780027259999997
+216	NA	Rumah Sakit Umum	127.44900715	0.674779855999986
+217	NA	Rumah Sakit Umum	127.526130572	-0.633987119999972
+218	Rumah Sakit Jantung Dobo	Rumah Sakit Khusus	134.211397295	-5.78836802799998
+219	Rumah Sakit Jantung Jabulenga	Rumah Sakit Khusus	134.349688339	-5.78374916199999
+220	Respek Mandon	Rumah Sakit Umum	136.190422009	-1.17676198499998
+221	Rumah Sakit Rimba Jaya	Rumah Sakit Umum	136.218293825	-1.14473884300003
+222	Rumah Sakit Umum	Rumah Sakit Umum	136.079247467	-1.15804680700001
+223	Rsud Serui	Rumah Sakit Umum	136.242043122	-1.88350620400001
+224	Rsud Timika	Rumah Sakit Umum	136.878210789	-4.58347918599998
+225	Rs Bantuan	Rumah Sakit Umum	136.888082793	-4.55802746199998
+226	Rs Caritas	Rumah Sakit Umum	136.835857732	-4.525511736
+227	 	Rumah Sakit Umum	133.728870966	-3.60725706099998
+228	 	Rumah Sakit Umum	133.570840593	-3.42457420599999
+229	 	Rumah Sakit Umum	132.295710544	-2.92911675099998
+230	Rsud Nabire Siriwini	Rumah Sakit Umum	135.529494944	-3.34237030999998
+231	Rumah Sakit Gesa Baru	Rumah Sakit Umum	137.421187338	-2.09588854200001
+232	 	Rumah Sakit Umum	131.351957193	-0.973778079999988
+233	Rumah Sakit Waisai	Rumah Sakit Umum	130.835454104	-0.412561367000023
+234	Rumah Sakit Marinda	Rumah Sakit Umum	130.82523264	-0.414598339000008
+235	 	Rumah Sakit Umum	132.01406116	-1.43859006000002
+236	 	Rumah Sakit Umum	132.07059575	-1.47591241999999
+237	 	Rumah Sakit Umum	132.465694092	-1.15986109200003
+238	 	Rumah Sakit Umum	134.063353262	-0.872450132999973
+239	 	Rumah Sakit Umum	134.078028682	-0.871160187999976
+240	Rumah Sakit Imanuel	Rumah Sakit Umum	137.958942702	-3.70117452199997
+241	 	Rumah Sakit Umum	137.976300217	-3.70934682500001
+242	Rumah Sakit Umum Daerah - Kepi	Rumah Sakit Umum	139.320324411	-6.52629356
+243	Rumah Sakit Umum	Rumah Sakit Umum	138.135347429	-5.53953813499999
+244	Rsud Dekai	Rumah Sakit Umum	139.492384344	-4.85953589399998
+245	Rsu Wamena	Rumah Sakit Umum	138.951199338	-4.10189731999998
+246	Rumah Sakit Hubukosi	Rumah Sakit Umum	138.921688684	-4.06768942000002
+247	Klinik Advent Wamena	Rumah Sakit Umum	138.943570736	-4.08915407900002
+248	Klinik Hewan	Rumah Sakit Khusus	138.942525019	-4.08730744100001
+249	Rumah Sakit Yalimo	Rumah Sakit Umum	139.379135354	-3.79258602200002
+250	Pos Pengawasan Obat	Rumah Sakit Khusus	140.442184954	-8.54058918700002
+251	Unit Transfusi Darah Kelurahan Maro	Rumah Sakit Khusus	140.392150574	-8.491744213
+252	Rumah Sakit Tni Al Kelurahan Maro	Rumah Sakit Umum	140.391730272	-8.48171282499999
+253	Rumah Sakit Umum Merauke Kelurahan Maro	Rumah Sakit Umum	140.389130292	-8.482776054
+254	Rsud Boven Digoel	Rumah Sakit Umum	140.339201862	-6.128643797
+255	Sd Inpres	Rumah Sakit Umum	140.300337867	-6.10180269599999
+256	Barak Medis	Rumah Sakit Khusus	140.731730102	-4.88755724499998
+257	 	Rumah Sakit Umum	140.466701522	-2.53359136900002
+258	 	Rumah Sakit Umum	140.741840216	-2.87075875599999
+259	 	Rumah Sakit Khusus	140.671177649	-2.61642154600003
+260	 	Rumah Sakit Umum	140.668541928	-2.61611325199999
+261	 	Rumah Sakit Umum	140.710501818	-2.53471608199999
+262	 	Rumah Sakit Umum	140.693756502	-2.545064556
+263	 	Rumah Sakit Khusus	140.688631056	-2.57426703300001
+264	 	Rumah Sakit Umum	140.675546941	-2.59190537199999
+265	 	Rumah Sakit Umum	140.6413635	-2.590747142
+266	RSUD Bahontula	Rumah Sakit Umum	121.337964613	-1.98255907100003
+267	 	Rumah Sakit Khusus	120.756032358	-1.386440655
+268	 	Rumah Sakit Umum	120.756104302	-1.38635032100001
+269	 	Rumah Sakit Umum	120.760329468	-1.38271110300002
+270	Rencana RSUD Tanimpo	Rumah Sakit Umum	121.858915378	-0.432845541999995
+271	RSUD Ampana	Rumah Sakit Umum	121.568648808	-0.869625320000011
+272	Rumah Sakit Umum Daerah Haji Padjonga Daeng Ngalle	Rumah Sakit Umum	119.43847432	-5.42268080999997
+273	Rumah Sakit Umum Thalia Ilham	Rumah Sakit Umum	119.43176997	-5.24231875999999
+274	Rumah Sakit Umum Daerah Syekh Yusuf	Rumah Sakit Umum	119.46316933	-5.21013611000001
+275	Rumah Sakit Umum Daerah Salewangang	Rumah Sakit Umum	119.57037404	-5.02897283999999
+276	Rumah Sakit Ibu dan Anak Rada	Rumah Sakit Umum	119.426083333	-5.18025
+277	Rumah Sakit Umum Daerah Haji	Rumah Sakit Umum	119.415683334	-5.17931666700002
+278	Rumah Sakit Bhayangkara	Rumah Sakit Umum	119.415366667	-5.17525000000001
+279	Rumah Sakit Bhayangkara	Rumah Sakit Umum	119.41665	-5.17520000000002
+280	Rumah Sakit Umum Luramay	Rumah Sakit Umum	119.437466666	-5.16618333299999
+281	Rumah Sakit Ibu dan Anak	Rumah Sakit Umum	119.426383333	-5.16514999999998
+282	Rumah Sakit Umum Daerah Labuan Baji	Rumah Sakit Umum	119.41795	-5.16261666600002
+283	Rumah Sakit Islam Faisal	Rumah Sakit Umum	119.433183333	-5.16261666600002
+284	Rumah Sakit Umum Daerah Dadi Makassar	Rumah Sakit Umum	119.42265	-5.15201666600001
+285	Rumah Sakit Siloam	Rumah Sakit Umum	119.40715	-5.1499
+286	Rumah Sakit Hikmah	Rumah Sakit Umum	119.41215	-5.14625000000001
+287	Rumah Sakit Stella Maris	Rumah Sakit Umum	119.4083	-5.14478333400001
+288	Rumah Sakit Pertiwi	Rumah Sakit Umum	119.414516667	-5.14024999999998
+289	Rumah Sakit Ibnu Sina	Rumah Sakit Umum	119.44655	-5.139116667
+290	Rumah Sakit Pelamonia	Rumah Sakit Umum	119.414483334	-5.13835
+291	Rumah Sakit Umum Siti Khadijah	Rumah Sakit Umum	119.41165	-5.13625000000002
+292	Rumah Sakit Awal Bros	Rumah Sakit Umum	119.435	-5.13521666700001
+293	Rumah Sakit Universitas Hasanuddin	Rumah Sakit Umum	119.495766666	-5.135133333
+294	Rumah Sakit Wahidin Sudiro Husodo	Rumah Sakit Umum	119.49465	-5.13434999999998
+295	Rumah Sakit Akademis Jauri Jusuf Putera	Rumah Sakit Umum	119.41545	-5.131483334
+296	Rumah Sakit Gigi Drg Halimah Daeng Sikati	Rumah Sakit Umum	119.4244	-5.129683333
+297	Rumah Sakit Ujungpandang Baru	Rumah Sakit Umum	119.43745	-5.12128333300001
+298	Rumah Sakit TNI AL Jalaamari	Rumah Sakit Umum	119.415066667	-5.11585000000002
+299	Rumah Sakit Umum Daerah Daya	Rumah Sakit Umum	119.511583333	-5.11405000000002
+300	Rumah Sakit Tajudinchali	Rumah Sakit Umum	119.5164	-5.11381666599999
+301	Rumah Sakit Tajudinchali	Rumah Sakit Umum	119.51565	-5.11106666699999
+302	Rumah Sakit Sayang Rakyat	Rumah Sakit Umum	119.493637874	-5.076001641
+303	Rumah Sakit Umum Daerah Ajjapange	Rumah Sakit Umum	119.899914304	-4.35068443900002
+304	Rumah Sakit Umum Ajappange	Rumah Sakit Umum	119.883148889	-4.35637797599998
+305	Rumah Sakit Dr. Sumantri	Rumah Sakit Umum	119.624788502	-4.01271180399999
+306	Rumah Sakit Fatima	Rumah Sakit Umum	119.6238188	-4.01149009599999
+307	Rumah Sakit Umum Andi Makkasau	Rumah Sakit Umum	119.633421003	-4.03547959600002
+308	Rumah Bersalin Siti Khadijah Kelurahan Jaya	Rumah Sakit Khusus	119.651240338	-3.791982754
+309	Rumah Sakit Ddela Kelurahan Bentengnge	Rumah Sakit Umum	119.650567936	-3.825079249
+310	Rumah Sakit Siti Khadijah Kelurahan Jaya	Rumah Sakit Umum	119.651717793	-3.79218914199998
+311	Rumah Sakit Umum Lasinrang	Rumah Sakit Umum	119.654637574	-3.81141136999997
+312	Balai Pengobatan dan Rumah Bersalin Dian Fatmawati	Rumah Sakit Khusus	119.753745162	-3.90965067100001
+313	Rumah Sakit Umum Daerah Nene Mallomo Kabupaten Sidrap	Rumah Sakit Umum	119.791685298	-3.93120263700001
+314	Rumah Bersalin	Rumah Sakit Khusus	119.816766997	-3.84390263699999
+315	Rumah Sakit Umum Arifin Numang Panca Rijang	Rumah Sakit Umum	119.815746031	-3.84529756400002
+316	Rumah Sakit Bersalin Hj. Puang Sabbe	Rumah Sakit Khusus	119.798741997	-3.40953911399998
+317	Rumah Sakit Umum Masenrempulu	Rumah Sakit Umum	119.775477951	-3.56815899200001
+318	Rumah Sakit PT. Semen TONASA	Rumah Sakit Umum	119.613310349	-4.780387663
+319	Rumah Sakit Umum Daerah Pangkep	Rumah Sakit Umum	119.557942339	-4.84575684200001
+320	Rumah Sakit Umum Daerah Barru	Rumah Sakit Umum	119.610809945	-4.41815121299999
+321	Rumah Sakit Fatima	Rumah Sakit Umum	119.854395309	-3.09475759100002
+322	Rumah Sakit umum Lakipadada	Rumah Sakit Umum	119.868073221	-3.073649219
+323	Rumah Sakit Umum Ulim Rantepao	Rumah Sakit Umum	119.896543904	-2.97398278999998
+324	Rumah Sakit Umum Daerah Lantogo Pasewang	Rumah Sakit Umum	119.764851598	-5.69863911700003
+325	Rumah Sakit Umum Bantaeng	Rumah Sakit Umum	119.947234	-5.54862900000001
+326	Rumah Sakit Dr.M.Yasin	Rumah Sakit Umum	120.330601784	-4.54963847599998
+327	Rumah Sakit Umum Daerah Tentriawaru Macanang	Rumah Sakit Umum	120.308208258	-4.53688539400002
+328	 	Rumah Sakit Umum	120.032812	-4.13772699999998
+329	Rumah Sakit Lamaddu Kelleng Sengkang	Rumah Sakit Umum	120.039536	-4.14892200100002
+330	Rumah Sakit Umum Daerah Siwa	Rumah Sakit Umum	120.415553	-3.70068099999997
+331	Rumah Sakit Umum Daerah Belopa	Rumah Sakit Umum	120.357182952	-3.36786783500003
+332	Rumah Sakit Ibu Anak St. Madyang	Rumah Sakit Khusus	120.202883797	-3.00700623400002
+333	Rumah Sakit Umum Sawerigading	Rumah Sakit Umum	120.194561501	-2.99610516299998
+334	Rumah Sakit Kusta Kalangkalang	Rumah Sakit Umum	120.182400559	-2.94295044199998
+335	Rumah Sakit Umum Sawerigading	Rumah Sakit Umum	120.17761669	-2.940353958
+336	Rumah Sakit Balangnipa	Rumah Sakit Umum	120.260814	-5.11738709999997
+337	Rumah Sakit Umum Daerah Sinjai	Rumah Sakit Umum	120.247956	-5.13445400000001
+338	Rumah Sakit Umum Kabupaten Bulukumba	Rumah Sakit Umum	120.1908939	-5.55253670000002
+339	Rumah Sakit Umum Masamba	Rumah Sakit Umum	120.333999004	-2.55415900100002
+340	RSUD Sigi	Rumah Sakit Umum	119.930290634	-1.00747391599998
+341	Rumah Sakit Pasangkayu	Rumah Sakit Umum	119.394907513	-1.17140905500003
+342	RSU Sinar Kasih Tentena	Rumah Sakit Umum	120.64478022	-1.76032036999999
+343	Rumah Sakit Umum Satu Lagaligo Luwu Timur	Rumah Sakit Umum	120.80239789	-2.58359290999999
+344	Rumah Sakit Inco Unit Rawat Jalan	Rumah Sakit Umum	121.099450407	-2.63097723800001
+345	Rumah Sakit PT INCO	Rumah Sakit Umum	121.367848263	-2.63832280899999
+346	Rumah Sakit Sorowako	Rumah Sakit Umum	121.360995564	-2.526383366
+347	Rumah Sakit Umum Daerah Konawe	Rumah Sakit Umum	122.077367087	-3.86848506699999
+348	Rumah Sakit Umum Daerah Konawe Utara	Rumah Sakit Umum	122.138732352	-3.544688017
+349	Rumah Sakit Antam	Rumah Sakit Umum	121.599403651	-4.19482034999999
+350	Rumah Sakit Benyamin Guluh	Rumah Sakit Umum	121.59655319	-4.05332870199999
+351	Rumah Bersalin Bunda	Rumah Sakit Khusus	121.60362516	-4.057465116
+352	Rumah Sakit Bersalin Harifa	Rumah Sakit Khusus	121.611453999	-4.06146713499999
+353	Rumah Sakit Mitra Sakinah Idaman	Rumah Sakit Umum	122.186233	-3.94383800000003
+354	Rumah Sakit Jiwa Dr Soefarto Hardjo Hoesodo	Rumah Sakit Khusus	122.504795826	-3.95736400700002
+355	Rumah Sakit Palang Merah Indonesia	Rumah Sakit Umum	122.536581527	-3.96224045399998
+356	Rumah Sakit Ibu dan Anak Permata Bunda	Rumah Sakit Umum	122.522292727	-3.966384683
+357	Rumah Sakit Santa Anna	Rumah Sakit Umum	122.574662954	-3.96972442100002
+358	Rumah Sakit Dr Ismoyo	Rumah Sakit Umum	122.515723995	-3.96981854400002
+359	Rumah Sakit Bhayangkara	Rumah Sakit Umum	122.508101602	-3.97271797000002
+360	Rumah Sakit Islam Ibnu Sina	Rumah Sakit Umum	122.515917057	-3.97858477
+361	Rumah Sakit Umum Griya Husada Bakti	Rumah Sakit Umum	122.511948197	-3.98765611099998
+362	Rumah Sakit Umum Abunawas	Rumah Sakit Umum	122.534053052	-3.98946923199998
+363	Rumah Sakit Umum Aliyah	Rumah Sakit Umum	122.546934515	-3.99866348900002
+364	Rumah Sakit Umum Bahteramas	Rumah Sakit Umum	122.491513	-4.035055
+365	Rumah Sakit Umum Bahteramas	Rumah Sakit Umum	122.491484	-4.03547500000002
+366	Rumah Sakit Umum Daerah Bombana	Rumah Sakit Umum	122.057362223	-4.79502838100001
+367	Rumah Sakit Umum Konawe Selatan	Rumah Sakit Umum	122.270898	-4.32923699999998
+368	Pos Kesehatan Hewan	Rumah Sakit Khusus	122.1777141	-4.4405678
+369	Rumah Sakit Umum Daerah Kolaka Utara	Rumah Sakit Umum	120.89981333	-3.50977203000002
+370	RSUD Banggai Laut	Rumah Sakit Umum	123.51994618	-1.63905249999999
+371	SD Inpres BTN Kilongan Permai Kilongan	Rumah Sakit Khusus	122.84203202	-0.923006960000009
+372	Paud Taamal Ikhlas	Rumah Sakit Khusus	123.18551897	-1.51133082000001
+373	Rumah Sakit Umum Daerah Luwuk Kecamatan Bungin Ti*	Rumah Sakit Umum	122.82228903	-0.93511890000002
+374	RSUD Majene	Rumah Sakit Umum	118.953438001	-3.54755134300001
+375	RSUD Polewali	Rumah Sakit Umum	119.349105209	-3.43583540100002
+376	RSUD Tentara	Rumah Sakit Umum	119.34921178	-3.43519867800001
+377	RSUD Pusat Polewali Mandar	Rumah Sakit Umum	119.321390865	-3.40709050200002
+378	RSUD Bunga-bunga	Rumah Sakit Umum	119.298822674	-3.37971853300002
+379	Rumah Sakit Banuh Mamasa	Rumah Sakit Umum	119.3781355	-2.93955369999998
+380	Rumah Sakit Minake	Rumah Sakit Umum	119.293363339	-3.02951688399997
+381	RSUD Majene	Rumah Sakit Umum	118.953789869	-3.54700510999999
+382	RSUD Majene	Rumah Sakit Umum	118.953892661	-3.54677310300002
+383	RSUD Majene	Rumah Sakit Umum	118.953595153	-3.54661802800001
+384	RSUD Majene	Rumah Sakit Umum	118.954007626	-3.54650270000002
+385	RSUD Majene	Rumah Sakit Umum	118.953733259	-3.54640286300003
+386	Kantor Kesehatan Pelabuhan	Rumah Sakit Khusus	119.857163081	-0.708550704000004
+387	Rumah Sakit Daerah Madani	Rumah Sakit Umum	119.869174129	-0.789551446000019
+388	RSUD Undata	Rumah Sakit Umum	119.883908699	-0.857857700000011
+389	Rumah Sakit Bersalin	Rumah Sakit Khusus	119.9016313	-0.937941799999976
+390	Klinik Bersalin Poata Pura	Rumah Sakit Khusus	119.858945573	-0.917902312000024
+391	Rumah Sakit Bersalin Care She	Rumah Sakit Khusus	119.8763262	-0.891608700000006
+392	Rumah Sakit Annisa	Rumah Sakit Umum	119.8848017	-0.902311199999986
+393	Rumah Sakit Mata	Rumah Sakit Khusus	119.867437495	-0.885307803999979
+394	RS Siti Masyinah	Rumah Sakit Umum	119.851636895	-0.892588973999977
+395	RS Bersalin Tinata Pura	Rumah Sakit Khusus	119.870725753	-0.886270366000019
+396	RSU Anuntaloko	Rumah Sakit Umum	120.1745547	-0.812143900000024
+397	Rumah Sakit Raja Tombolotutu Tinombo	Rumah Sakit Umum	120.278147001	0.380334000000005
+398	Pondok Bersalin Sukma	Rumah Sakit Khusus	123.125769999	0.571821987000021
+399	RS Sitti Khadidjah	Rumah Sakit Umum	123.061256446	0.539394592000008
+400	RSUD Prof.DR.H.Aloei Saboe Kota Gorontalo	Rumah Sakit Umum	123.083626115	0.555386098999975
+401	RSUD Bonebolango (RS.Toto	Rumah Sakit Umum	123.099368245	0.573457299999973
+402	Rumah Sakit Umum Daerah Otanaha Kota Gorontalo	Rumah Sakit Umum	123.027441675	0.546340514999997
+403	Rumah Sakit Islam Gorontalo	Rumah Sakit Umum	123.048190143	0.566938644999993
+404	Rumah Sakit Bunda	Rumah Sakit Umum	123.049558673	0.554675203999977
+405	Pondok Bersalin Desa Tinelo	Rumah Sakit Khusus	123.027032598	0.608353971999975
+406	Rumah Sakit Bergerak	Rumah Sakit Umum	122.897873008	0.828910645999997
+407	Rumah Sakit Pemda	Rumah Sakit Umum	122.897645025	0.827951993999989
+408	Pondok Bersalin Siti Maryam	Rumah Sakit Khusus	122.876356998	0.638355015999991
+409	Yayasan Kesehatan Averroes	Rumah Sakit Umum	122.864475987	0.647558011000001
+410	Medical Cenntre Tibawa	Rumah Sakit Umum	122.862691981	0.643240992000017
+411	Rsud Dr Mm Dunda Unit Gawat Inap	Rumah Sakit Umum	122.989777979	0.624172599000019
+412	Rsu Dr Mam Syurmohammaddunda	Rumah Sakit Umum	122.976561981	0.624304619999975
+413	Rumah Sakit Suka Makmur	Rumah Sakit Umum	122.559460965	0.700385040000015
+414	Klinik Bersalin	Rumah Sakit Khusus	123.51909217	0.879343775999985
+415	RSUD Tombullilato Bone Pesisir	Rumah Sakit Umum	123.330832171	0.312380373999986
+416	Rumah Sakit Baru	Rumah Sakit Umum	123.298988372	0.899443716999997
+417	RSUD Pohuwato	Rumah Sakit Umum	121.94821897	0.478207020000013
+418	Rumah Sakit Tani Dan Nelayan	Rumah Sakit Umum	122.332039975	0.526134993000028
+419	Pondok Bersalin Desa Oyom	Rumah Sakit Khusus	120.885725891	0.910565996999992
+420	RSU Mokopido Tolitoli	Rumah Sakit Umum	120.822702836	1.03599527300003
+421	Klinik Bersalin Budi Harapan	Rumah Sakit Khusus	120.819825462	1.04072156400002
+422	RSUD Popayato	Rumah Sakit Umum	121.469104	0.509274000000005
+423	RSUD Buol	Rumah Sakit Umum	121.421145	1.17194699999999
+424	RSUD Bau-bau	Rumah Sakit Umum	122.591758236	-5.48299837000002
+425	RSU Murhum	Rumah Sakit Umum	122.601954924	-5.46242497200001
+426	Rumah Sakit Bhayangkara	Rumah Sakit Umum	122.612952769	-5.458307053
+427	RSUD Pasarwajo	Rumah Sakit Umum	122.838734688	-5.52509139199998
+428	Rumah Sakit Bhakti Medika	Rumah Sakit Umum	122.608253138	-5.466753235
+429	RSUD Raha	Rumah Sakit Umum	122.721812019	-4.84491801399997
+430	RSUD Buranga	Rumah Sakit Umum	123.179315021	-4.75452602899998
+431	Rumah Sakit Almah	Rumah Sakit Umum	107.721458486	-2.757211794
+432	Rumah Sakit Umum Daerah Belitung	Rumah Sakit Umum	107.629729927	-2.73872044900003
+641	Rumah Sakit Belitung	Rumah Sakit Umum	107.678004453	-2.74850867599997
+642	RSUD Belitung Timur	Rumah Sakit Umum	108.241971493	-2.88044955100003
+643	Rumah Sakit Umum Daerah Toboali	Rumah Sakit Umum	106.47221435	-2.96946807
+644	RSUD Bangka Tengah	Rumah Sakit Umum	106.41363507	-2.51752138000001
+645	RSUD Depati Hamzah Pangkalpinang	Rumah Sakit Umum	106.12444726	-2.14413517000003
+646	Rumah Sakit Katolik Bhakti Wara Gajahmada	Rumah Sakit Umum	106.09826244	-2.14403114999999
+647	RSUD Sejiran Setason	Rumah Sakit Umum	105.221133822	-2.05497354400001
+648	Rumah Sakit Medika Stannia	Rumah Sakit Umum	106.11760988	-1.85759422400002
+649	RSIA Muhaya	Rumah Sakit Umum	106.112153036	-2.11302431399997
+650	RS Bakti Timah	Rumah Sakit Umum	106.109097056	-2.114437608
+651	Rumah Sakit Arsani	Rumah Sakit Umum	106.11925351	-1.91286045700002
+652	Rumah Sakit	Rumah Sakit Umum	105.091196697	-4.26000150300001
+653	Rumah Sakit Mutiara Bunda	Rumah Sakit Umum	105.221475198	-4.285820704
+654	Rumah Sakit Panaragan Jaya Medika	Rumah Sakit Umum	105.0877583	-4.53217569999998
+655	Rumah Sakit Bupati	Rumah Sakit Umum	105.0873902	-4.53504550000002
+656	Rumah Sakit Umum Menggala	Rumah Sakit Umum	105.220458	-4.54711889999999
+657	Rumah Sakit Umum Asy Syifa Medika	Rumah Sakit Umum	105.0862641	-4.63145689999999
+658	Rumah Sakit Umum Rosa Medika	Rumah Sakit Umum	105.0851338	-4.6318804
+659	Rumah Sakit Pembantu Desa Bumijaya	Rumah Sakit Umum	105.0365973	-4.77366769999998
+660	Rumah Sakit Yukum Jaya Medical Center	Rumah Sakit Umum	105.2112635	-4.90649009999998
+661	Rumah Sakit Islam Asy Syifaa	Rumah Sakit Umum	105.2132801	-4.92378079999997
+662	Rumah Sakit Pembantu Desa Banjarrejo	Rumah Sakit Umum	105.0688639	-4.93171469999999
+663	Rumah Sakit Pembantu Desa Pagargading	Rumah Sakit Umum	105.0091568	-4.93211689999998
+664	Rumah Sakit Bersalin Puti Bungsu	Rumah Sakit Khusus	105.2141503	-4.93629579999998
+665	Rumah Bersalin Dan Apotek Mugi Rahayu	Rumah Sakit Khusus	105.2130067	-4.93855980000001
+666	Rumah Sakit Mitra Mulia Husada	Rumah Sakit Umum	105.2137493	-4.9417669
+667	Rumah Sakit Harapan Bunda	Rumah Sakit Umum	105.2161297	-4.95838120000002
+668	Rumah Sakit Umum Daerah Dr. H. Bob Bazar. SKm	Rumah Sakit Umum	105.596359	-5.72743100000002
+669	PMI Lampung Selatan	Rumah Sakit Khusus	105.585934885	-5.71569432400003
+670	Balai Pengobatan Waren Sidomakmur	Rumah Sakit Khusus	105.614984	-5.646052
+671	Pusat Kesehatan Hewan Kecamatan Candipuro	Rumah Sakit Khusus	105.595528	-5.53563299899997
+672	Balai Pengobatan Lanal Lampung	Rumah Sakit Khusus	105.3248854	-5.48010743100002
+673	Rumah Sakit Ibu dan Anak Restu Bunda	Rumah Sakit Umum	105.256594272	-5.44741041499998
+674	Kantor PMI Lampung	Rumah Sakit Khusus	105.267038648	-5.44253318400001
+675	Rumah Sakit Ibu dan Anak Santa Anna Bandarlampung	Rumah Sakit Umum	105.267662231	-5.44238625499997
+676	Rumah Sakit Umum Daerah Dr A Dadi Tjokrodipo Bandarlampung	Rumah Sakit Umum	105.252392072	-5.43648505900001
+677	Rumah Sakit Assyifa Bandarlampung	Rumah Sakit Umum	105.270983379	-5.42978351900001
+678	Rumah Sakit Bumiwaras	Rumah Sakit Umum	105.250776567	-5.42494849600001
+679	Rumah Sakit Dwi Laras Bandarlampung	Rumah Sakit Umum	105.250921583	-5.42476912699999
+680	Rumah Sakit Ibu dan Anak Mutiara Putri	Rumah Sakit Umum	105.262503767	-5.42293218200001
+681	Kantor PMI Bandarlampung	Rumah Sakit Khusus	105.262875984	-5.42048436200002
+682	Rumah Sakit Bersalin Anugerah Medika Lampung	Rumah Sakit Khusus	105.260441992	-5.41975564299997
+683	Rumah Sakit Graha Husada Tanjungagungraya	Rumah Sakit Umum	105.267497505	-5.413538184
+684	Rumah Sakit Bersalin Xaverius Bandarlampung	Rumah Sakit Khusus	105.25754522	-5.40494468000003
+685	Rumah Sakit Umum Daerah Abdul Moeloek Lampung	Rumah Sakit Umum	105.258926633	-5.402926111
+686	Rumah Sakit Tingkat IV Bandarlampung	Rumah Sakit Umum	105.258649357	-5.40176129600002
+687	Kantor PMI Lampung	Rumah Sakit Khusus	105.257649449	-5.400732215
+688	Rumah Sakit Ibu dan Anak Betik Hati	Rumah Sakit Umum	105.266016568	-5.394111829
+689	Rumah Sakit Ibu dan Anak Sinta Langkapura	Rumah Sakit Umum	105.226498061	-5.39255506199999
+690	Rumah Sakit Advent Bandarlampung	Rumah Sakit Umum	105.262127137	-5.39209360199999
+691	Rumah Sakit Urip Sumoharjo	Rumah Sakit Umum	105.276595205	-5.39108997099999
+692	Pusat Kesehatan Hewan Bandarlampung	Rumah Sakit Khusus	105.217797552	-5.39062534999999
+693	Rumah Sakit Imanuel Bandarlampung	Rumah Sakit Umum	105.287550755	-5.38602795399999
+694	Pelayanan dan Rehabilitasi Sosial Penyandang Cacat	Rumah Sakit Khusus	105.221576863	-5.38310638799999
+695	Rumah Sakit Jiwa Lampung	Rumah Sakit Khusus	105.194387387	-5.375344756
+696	Rumah Sakit Jiwa Bandarlampung	Rumah Sakit Khusus	105.194658139	-5.37524515899997
+697	Rumah Sakit Bhayangkari Polda Lampung	Rumah Sakit Umum	105.224263362	-5.37404991199998
+698	Balai Pengobatan PTPN Waygalih	Rumah Sakit Khusus	105.363609463	-5.36238540300002
+699	Rumah Sakit Natar Medika	Rumah Sakit Umum	105.195504657	-5.31220001299999
+700	Rumah Sakit Sribhawono	Rumah Sakit Umum	105.731115	-5.31123500000001
+701	Pusat Kesehatan Hewan Margakaya	Rumah Sakit Khusus	105.301122596	-5.304775662
+702	Rumah Sakit Umum Muhammadiyah Metro	Rumah Sakit Umum	105.28999	-5.134615
+703	Pusat Kesehatan Hewan Batanghari	Rumah Sakit Khusus	105.362546	-5.13185099999998
+704	Rumah Sakit Ibu dan Anak AMC	Rumah Sakit Umum	105.310527001	-5.11845199999999
+705	Rumah Sakit Mardi WAluyo	Rumah Sakit Umum	105.296617	-5.11837899900002
+706	PMI Metro	Rumah Sakit Khusus	105.310549001	-5.11704099999997
+707	Rumah Sakit Umum Daerah Ahmad Yani Kota Metro	Rumah Sakit Umum	105.309543001	-5.11576300000002
+708	Rumah Sakit Bersalin Permata Hati Metro	Rumah Sakit Khusus	105.313743	-5.11418900000001
+709	Rumah Sakit Islam Metro	Rumah Sakit Umum	105.333177	-5.10543999999999
+710	Pos 1B Kawin Suntik Sapi	Rumah Sakit Khusus	105.279608001	-5.03862599899998
+711	RS Tulat Novisiat SCJ Santo Yohanes Gisting	Rumah Sakit Umum	104.730241239	-5.42389531399999
+712	RS Panti Secanti Gisting	Rumah Sakit Umum	104.728841586	-5.42501644200001
+713	RSUD Kotaagung	Rumah Sakit Umum	104.642101871	-5.48832268899997
+714	RS Mitra Husada	Rumah Sakit Umum	104.990703289	-5.358757191
+715	RS Wisma Rini	Rumah Sakit Umum	104.971857308	-5.35510182000002
+716	RSIA Harapan Bunda	Rumah Sakit Khusus	104.973951043	-5.36145256999998
+717	RSUD Pringsewu	Rumah Sakit Umum	104.976821396	-5.35896489300001
+718	RSIA Mutiarahati Tambahrejo Barat	Rumah Sakit Khusus	105.02101318	-5.38234117100001
+719	RSUD Pesawaran	Rumah Sakit Umum	105.08069644	-5.39385239000001
+720	RS Umum Panti Rahayu Nyukangharjo	Rumah Sakit Umum	104.849236302	-5.07169223800003
+721	RSUD Demang Sepulau Raya Terbanggi Agung	Rumah Sakit Umum	105.20999073	-5.01235746899999
+722	Rumah Sakit Aisyiyah Lintik Pekon Lintik	Rumah Sakit Umum	103.919874	-5.22991100000002
+723	Rumah Sakit Umum Daerah Liwa	Rumah Sakit Umum	104.073398989	-5.03330896599999
+724	PMI Waymengaku	Rumah Sakit Khusus	104.073556988	-5.02854201000002
+725	Rumah Sakit Unit Daerah Sukadana	Rumah Sakit Umum	105.526285996	-5.07563017299998
+726	Rumah Sakit HI Muhamad Yusuf	Rumah Sakit Umum	104.963391273	-4.87446512999998
+727	Rumah Sakit Handayani	Rumah Sakit Umum	104.885561936	-4.83972631799998
+728	Rumah Sakit Umum 	Rumah Sakit Umum	104.891488372	-4.832381414
+729	RSU ZA Pagar Alam	Rumah Sakit Umum	104.526935298	-4.57834701000002
+730	PMI Benermeriah	Rumah Sakit Khusus	96.852076326	4.72698886699999
+731	RS Uleegle	Rumah Sakit Umum	96.870777101	5.16047789999999
+732	RSU Bunga	Rumah Sakit Umum	97.146524309	5.17530703800003
+733	PMI Cabang Kota Lhokseumawe	Rumah Sakit Khusus	97.127714426	5.172815851
+734	PMI Aluemudem	Rumah Sakit Khusus	97.308832419	5.06795846799997
+735	RSUD Benermeriah	Rumah Sakit Umum	96.860532566	4.69637414699997
+736	RS Cut Mutia	Rumah Sakit Umum	97.155950745	5.12167839699998
+737	RS Tk.IV Iskandar Muda 07.01	Rumah Sakit Umum	97.149752308	5.18320516799997
+738	RSU Sakinah	Rumah Sakit Umum	97.144376164	5.18799243199999
+739	RSU PT. Arun Hospital	Rumah Sakit Umum	97.048814404	5.21616967800003
+740	RS Prima Inti Medika	Rumah Sakit Umum	97.026166735	5.221447732
+741	Rencana RSUD	Rumah Sakit Umum	96.811681976	4.59538424300001
+742	Puskeswan Pusat Kesehatan Hewan	Rumah Sakit Khusus	97.009657037	4.58859606099998
+743	RSUD Dabungelang 	Rumah Sakit Umum	97.369263	4.00582300000002
+744	Rumah Sakit Rehabilitasi Medik	Rumah Sakit Khusus	97.88595065	4.8074259
+745	Rumah Sakit Pembantu Cotgirek	Rumah Sakit Umum	97.37511934	4.91190212999999
+746	Rsud Di Aceh Timur	Rumah Sakit Umum	97.77766409	4.94274274999998
+747	Rumah Sakit Graha Bunda	Rumah Sakit Umum	97.76345333	4.95772490000002
+748	Rumah Sakit Simpangulim	Rumah Sakit Umum	97.54023529	5.09617725999999
+749	Rumah Sakit Umum Teungku Peukan Geulima Jaya	Rumah Sakit Umum	96.799935958	3.739431637
+750	RSU Teuku Peukan Geulima Jaya	Rumah Sakit Umum	96.799637983	3.73983403699998
+751	RSUD Blangpidie	Rumah Sakit Umum	96.837358976	3.74028156200001
+752	RSU Putrinaga	Rumah Sakit Umum	97.175780017	3.25487837499998
+753	RSUD Yulidinaway	Rumah Sakit Umum	97.158142637	3.28670233700001
+754	Rumah Sakit Umum Aceh Singkil	Rumah Sakit Umum	97.926588948	2.34812519000002
+755	Rumah Sakit Umum Daerah Kota Subulussalam	Rumah Sakit Umum	97.988300984	2.648327016
+756	Pusat Kesehatan Hewan	Rumah Sakit Khusus	97.953720225	4.16328328399999
+757	Rumah Sakit Pembantu	Rumah Sakit Umum	97.954990032	4.16361964999999
+758	RSUD Langsa	Rumah Sakit Umum	97.970305364	4.46942089700002
+759	RS Cut Meutia	Rumah Sakit Umum	97.947888073	4.48785389900002
+760	RS Cut Nyak Dien	Rumah Sakit Umum	97.956518657	4.4796839
+761	RS Ibu dan Anak Nurul Qolbi	Rumah Sakit Umum	97.969103343	4.473544527
+762	Puskeswan Pusat Kesehatan Hewan	Rumah Sakit Khusus	97.009591979	4.58859260499997
+763	 	Rumah Sakit Umum	97.970236058	4.468402647
+764	 	Rumah Sakit Umum	97.970046558	4.46849339599999
+765	 	Rumah Sakit Umum	97.969890435	4.468558761
+766	 	Rumah Sakit Umum	97.969716984	4.46861740999998
+767	 	Rumah Sakit Umum	97.970433557	4.468741486
+768	 	Rumah Sakit Umum	97.970286645	4.46881021600001
+769	 	Rumah Sakit Umum	97.970140463	4.46891758700002
+770	 	Rumah Sakit Umum	97.969904728	4.46900819299998
+771	 	Rumah Sakit Umum	97.96967448	4.46911849899999
+772	 	Rumah Sakit Umum	97.970838282	4.46919402899999
+773	 	Rumah Sakit Umum	97.970549148	4.46931733500003
+774	RS Cut Nyak Dhien	Rumah Sakit Umum	97.956530498	4.47967184399999
+775	RSU Cut Meutia	Rumah Sakit Umum	97.947871715	4.48780532900003
+776	 	Rumah Sakit Umum	97.948149203	4.48790095800001
+777	Rumah Sakit Avicenna	Rumah Sakit Umum	96.703742	5.21257700000001
+778	RSUD Bireuen	Rumah Sakit Umum	96.698795	5.20406800000001
+779	Unit Pelayanan Kesehatan Jiwa dan Psikologi	Rumah Sakit Khusus	96.697489	5.20514200000002
+780	RS Montella	Rumah Sakit Umum	96.123780114	4.15989228199999
+781	RSUD Cut Nyak Dhien	Rumah Sakit Umum	96.127100825	4.147584333
+782	RSUD Naganraya, Ujongfatihah	Rumah Sakit Umum	96.311769837	4.11771065400001
+783	RSUD Cut Nyak Dhien	Rumah Sakit Umum	96.12684559	4.14619025000002
+784	RSUD Cut Nyak Dhien	Rumah Sakit Umum	96.128019935	4.146366951
+785	RSUD Cut Nyak Dhien	Rumah Sakit Umum	96.127766345	4.14640143299999
+786	RSUD Cut Nyak Dhien	Rumah Sakit Umum	96.127628826	4.146882511
+787	RSUD Cut Nyak Dhien	Rumah Sakit Umum	96.127637286	4.14720426100001
+788	RSUD Cut Nyak Dhien	Rumah Sakit Umum	96.12738531	4.14756677600002
+789	RSUD Cut Nyak Dhien	Rumah Sakit Umum	96.126797496	4.14791658399997
+790	RSUD Cut Nyak Dhien	Rumah Sakit Umum	96.127171754	4.14789155099999
+791	RSUD Naganraya, Ujongfatihah	Rumah Sakit Umum	96.311408942	4.11755347100001
+792	RSUD Naganraya, Ujongfatihah	Rumah Sakit Umum	96.311085878	4.117870756
+793	RSUD Naganraya, Ujongfatihah	Rumah Sakit Umum	96.311240815	4.11811169100002
+794	RSUD Naganraya, Ujongfatihah	Rumah Sakit Umum	96.311534775	4.11819124499999
+795	RSUD Naganraya, Ujongfatihah	Rumah Sakit Umum	96.312066387	4.118400694
+796	RSUD Rengat Barat	Rumah Sakit Umum	102.442142718	-0.394202733999975
+797	Rumah Bersalin Ibnu Sina Pasirpenyu	Rumah Sakit Khusus	102.294034941	-0.360013209999977
+798	Rumah Bersalin Safira Kembangharum	Rumah Sakit Khusus	102.294367996	-0.356904527999973
+799	Rumah Bersalin Bidan Mairita Lambansari Empat	Rumah Sakit Khusus	102.30659261	-0.296665838000024
+800	Rumah Bersalin Bidan Pancur	Rumah Sakit Khusus	102.729601229	-0.649146794999979
+801	Rumah Bersalin Bidan Afrian Tanahdatar Tanahdatar	Rumah Sakit Khusus	102.667374727	-0.713291497
+802	Rumah Bersalin Bidan Ringin Luar	Rumah Sakit Khusus	102.503549686	-0.705431685999997
+803	Rumah Bersalin Bidan Usul	Rumah Sakit Khusus	102.493443996	-0.730237137000017
+804	RSUD Tengku Sulung Reteh	Rumah Sakit Umum	103.189093788	-0.696609066999997
+805	RSUD Tengku Sulung Reteh	Rumah Sakit Umum	103.189371431	-0.696799191000025
+806	RSUD Indragirii Hilir	Rumah Sakit Umum	103.164043163	-0.323391829999991
+807	RSUD Tengku Sulung Reteh	Rumah Sakit Umum	103.189154734	-0.697005890000014
+808	RSUD Sungaiguntung	Rumah Sakit Umum	103.624073826	0.291366101999984
+809	RSUD Grand Hospital Bengkalis	Rumah Sakit Umum	102.088073977	1.48780499600002
+810	RSUD Bandul	Rumah Sakit Umum	102.438530988	1.26667304
+811	RSUD Selatpanjang	Rumah Sakit Umum	102.733316989	1.00282103699999
+812	RSUD Kuantansingingi	Rumah Sakit Umum	101.541228	-0.510717999999997
+813	Rumah Sakit Milano	Rumah Sakit Umum	101.556982	-0.54024800000002
+814	Rumah Barsalin Ade	Rumah Sakit Khusus	100.640458647	-0.235434349999991
+815	RS Khusus Bedah	Rumah Sakit Umum	100.62247841	-0.230303615000025
+816	RS Bersalin Harapan Bunda	Rumah Sakit Umum	100.66224802	-0.15972595400001
+817	RS Ungai Islam Ibnu Sina	Rumah Sakit Umum	100.632633623	-0.221933738000018
+818	Rumah Bersalin Bidan Delima Secanojaya	Rumah Sakit Khusus	101.873426617	-0.649660191999999
+819	Bidan Sri Handayani, Am, Keb	Rumah Sakit Khusus	100.419681603	0.785643198999992
+820	RSUD Kecamatan Rambah	Rumah Sakit Umum	100.286826303	0.880949898999972
+821	Bidan Eva Yanti	Rumah Sakit Khusus	100.662066603	0.959575803000007
+822	RSU Yanti Panti	Rumah Sakit Umum	100.058339693	0.36727504800001
+823	RS Claudia	Rumah Sakit Umum	100.4470099	1.67045769999999
+824	RS Agung	Rumah Sakit Umum	100.4608043	1.675432
+825	RSU Indah	Rumah Sakit Umum	100.4183417	1.68536549999999
+826	Rumah Sakit Tambusai Utara Medika	Rumah Sakit Umum	100.357174001	1.23841990199998
+827	Rumah Bersalin Balai Pengobatan Khusus 'Sehat'	Rumah Sakit Khusus	100.141992803	1.06692579600002
+828	RSUD Bagansiapi-api	Rumah Sakit Umum	100.809816667	2.157413889
+829	RSUD Kubu	Rumah Sakit Umum	100.638197222	2.04556388899999
+830	 	Rumah Sakit Umum	103.469474916	-0.824284524000007
+831	 	Rumah Sakit Khusus	101.424524001	1.65097114100001
+832	 	Rumah Sakit Umum	101.459573717	1.67847917500001
+833	 	Rumah Sakit Umum	101.459757076	1.680096537
+834	 	Rumah Sakit Umum	102.048523837	0.800262297000017
+835	 	Rumah Sakit Umum	101.201916409	1.27050827099998
+836	 	Rumah Sakit Umum	101.169111822	1.280056118
+837	 	Rumah Sakit Khusus	102.236033165	0.29024595300001
+838	 	Rumah Sakit Khusus	102.084157334	0.438906492000001
+839	 	Rumah Sakit Khusus	102.092717538	0.442931289000001
+840	 	Rumah Sakit Umum	101.594921115	0.679095029999985
+841	 	Rumah Sakit Umum	101.52118856	0.725131189000024
+842	 	Rumah Sakit Umum	101.450781517	0.524839386999986
+843	 	Rumah Sakit Umum	101.442315307	0.527075363999984
+844	 	Rumah Sakit Umum	101.461219334	0.513093721000018
+845	 	Rumah Sakit Khusus	101.454907489	0.513719851000019
+846	 	Rumah Sakit Umum	101.44345321	0.520837986999993
+847	 	Rumah Sakit Umum	101.8405117	0.413355060000015
+848	 	Rumah Sakit Umum	101.85817271	0.406506130000025
+849	 	Rumah Sakit Umum	101.85550022	0.42543489000002
+850	 	Rumah Sakit Khusus	101.968957056	0.208833357999993
+851	 	Rumah Sakit Umum	101.026491319	0.346203485999979
+852	 	Rumah Sakit Khusus	101.382393249	0.464346982999984
+853	 	Rumah Sakit Khusus	101.158426836	0.373613138999985
+854	RSUD Kaur	Rumah Sakit Umum	103.261868391	-4.69588950799999
+855	RSUD Manna Bengkulu Selatan	Rumah Sakit Umum	102.896144816	-4.44226749199998
+856	RSUD Tais	Rumah Sakit Umum	102.595924454	-4.08917599500001
+857	RSUD Besemah Alun Dua	Rumah Sakit Khusus	103.251727992	-4.00935910599998
+858	Rumah Sakit Umum Muara Dua	Rumah Sakit Umum	104.051424357	-4.58474001000002
+859	RS Santo Antonio Airgading	Rumah Sakit Umum	104.164194447	-4.11799833200001
+860	RSUD Ibnu Sutowo Kemalaraja	Rumah Sakit Umum	104.167196687	-4.12446929700002
+861	RSUD OKU Timur	Rumah Sakit Umum	104.648998285	-4.07836051100003
+862	Rumah Sakit Puri Asih Belitang	Rumah Sakit Umum	104.64432625	-4.11066413499998
+863	Rumah Sakit Islam At Taqwa Belitang	Rumah Sakit Umum	104.634054239	-4.11302065899997
+864	RSUD Martapura OKU Timur	Rumah Sakit Umum	104.345151809	-4.30043808599999
+865	RSUD Lahat	Rumah Sakit Umum	103.534592571	-3.79335007700001
+866	RS DKT Lahat	Rumah Sakit Umum	103.535439772	-3.79282696600001
+867	RS Bukit Asam	Rumah Sakit Umum	103.783241179	-3.76283057299997
+868	RSUD Dr. H. M. Rabain Muaraenim	Rumah Sakit Umum	103.77278508	-3.66686798699999
+869	RS DKT Muaraenim	Rumah Sakit Umum	103.770544241	-3.62644339299999
+870	RSUD Tebingtinggi	Rumah Sakit Umum	103.081961889	-3.59149702100001
+871	Poskeslur Pasar Muarabeliti	Rumah Sakit Khusus	103.03859479	-3.24624702800003
+872	RSUD Musirawas	Rumah Sakit Umum	103.010821252	-3.23892308699999
+873	RS Kader Bangsa Kemasrindo	Rumah Sakit Umum	104.75186377	-3.03367914099999
+874	RSUD Palembang	Rumah Sakit Umum	104.768481136	-3.010793965
+875	RS Muhammadiyah Plaju Ilir	Rumah Sakit Umum	104.816186729	-3.000326648
+876	RSU Daerah Bengkulu	Rumah Sakit Umum	102.309519368	-3.81718271699998
+877	Puskeswan Lebong	Rumah Sakit Khusus	102.178273021	-3.10031230800001
+878	RSU Daerah Argamakmur	Rumah Sakit Umum	102.190995655	-3.441861238
+879	RSU Hanna Charitas	Rumah Sakit Umum	102.178293931	-3.44298636100001
+880	RS Hapsari Medika Sidorejo	Rumah Sakit Umum	102.854129506	-3.29208648700001
+881	"RS ""DR .Sobirin "" Lubuklinggau Jawa Kan*"	Rumah Sakit Umum	102.863763543	-3.29622984600002
+882	RSUD Curup	Rumah Sakit Umum	102.519228177	-3.47740886000003
+883	RSUD Dr,M,Yunus	Rumah Sakit Umum	102.313579224	-3.83375122899997
+884	RSJ Soerapto Lingkar Barat	Rumah Sakit Khusus	102.302038686	-3.83584749200003
+885	RS Bayangkara Jitra	Rumah Sakit Umum	102.254881918	-3.79218586299999
+886	RS Rafflesia Bengkulu	Rumah Sakit Umum	102.270160935	-3.796743698
+887	RS Tiara Sella Kebunkenanga	Rumah Sakit Umum	102.271337314	-3.80028076999997
+888	RSUD Bengkulu Tengah	Rumah Sakit Umum	102.486191451	-3.70581880600002
+889	RSUD Lebong	Rumah Sakit Umum	102.259861371	-3.13765051899998
+890	RSUD Kepahiang	Rumah Sakit Umum	102.570965398	-3.662858379
+891	RSUD Siti Aisyah Lubuklinggau Airkuti	Rumah Sakit Umum	102.915159601	-3.27207319199999
+892	Rumah Bersalin dan Balai Pengobatan Margarahayu	Rumah Sakit Khusus	102.918879952	-3.26952233700001
+893	Klinik Bersalin Azmura	Rumah Sakit Khusus	102.887796504	-3.28466384799998
+894	Balai Pengobatan dan Bersalin Advent Tabajemekeh	Rumah Sakit Khusus	102.879847603	-3.28753095500002
+895	Rumah Bersalin Dwi Sri	Rumah Sakit Khusus	102.901282206	-3.27524461000002
+896	Rumah Sakit Musi Rawas Airkuti	Rumah Sakit Khusus	102.915745828	-3.271333051
+897	Rumah Bersalin Kasih Ibu Wonosari	Rumah Sakit Khusus	104.23124271	-3.43055321000003
+898	Rumah Bersalin Permata Mutangtapus	Rumah Sakit Khusus	104.23300199	-3.43252321
+899	RS Pertamina Prabumulih	Rumah Sakit Umum	104.22618407	-3.43547967000001
+900	RS AR Bunda Prabumulih Timur	Rumah Sakit Umum	104.25482679	-3.40969660000002
+901	RSUD Kayuagung	Rumah Sakit Umum	104.82534908	-3.40761772000002
+902	RSUD Rupit	Rumah Sakit Umum	102.909113253	-2.72357719299998
+903	RSUD Rupit	Rumah Sakit Umum	102.900733506	-2.697678091
+904	Rumah Sakit Umum Daerah Bayunglencir	Rumah Sakit Umum	103.679417	-2.073757
+905	Puskeswan Pusat Kesehatan Hewan	Rumah Sakit Khusus	102.96219	-2.042643
+906	RSUD Sekayu	Rumah Sakit Umum	103.857313733	-2.89152494500001
+907	Rumah Bersalin Yayasan Buah Delima Sekayu	Rumah Sakit Khusus	103.836429623	-2.868574002
+908	RSUD Banyuasin Tiga	Rumah Sakit Umum	104.375770853	-2.86847277800001
+909	RSUD Sungaililinjaya	Rumah Sakit Umum	104.112284281	-2.54122079899997
+910	RS Bhayangkara Ariokemuning	Rumah Sakit Umum	104.737114046	-2.958788083
+911	RS Bersalin Pahlawan	Rumah Sakit Khusus	104.743358168	-2.96232366100003
+912	RS Pangkalan TNI AU Talangbetutu	Rumah Sakit Umum	104.700512023	-2.90930676900001
+913	RS Myria Sukarami	Rumah Sakit Umum	104.72620293	-2.941556741
+914	RS Ernaldi Bahar Alang-alanglebar	Rumah Sakit Umum	104.682097894	-2.92334255499998
+915	RS Khusus Mata Sukarami	Rumah Sakit Khusus	104.733471647	-2.95000838499999
+916	RS Hermia Palembang	Rumah Sakit Umum	104.748192044	-2.95511433000001
+917	RSUP Dr.M. Husein Palembang	Rumah Sakit Khusus	104.749044264	-2.96685750900002
+918	RSIA Bunda Demanglebardaun	Rumah Sakit Umum	104.734187228	-2.96805726999997
+919	RSI Siti Khadijah Demanglebardaun	Rumah Sakit Umum	104.731234862	-2.97141297899998
+920	RSIA Mitra Ananda Lorokpakjo	Rumah Sakit Umum	104.729013913	-2.96434675099999
+921	RSIA Graha Mandiri Siringagung	Rumah Sakit Umum	104.726025354	-2.96849857000001
+922	Rumah Barsalin Sembilansepuluh Ulu	Rumah Sakit Khusus	104.769861495	-2.99402113600001
+923	Rumah Barsalin Nusantara Duapuluhenam Ilir	Rumah Sakit Khusus	104.75308884	-2.98847166899998
+924	RS Khusus Paru-paru Talangsemut	Rumah Sakit Khusus	104.750541746	-2.99037095699998
+925	RS Dr. A.K. Gani Sembilanbelas Ilir	Rumah Sakit Umum	104.760242507	-2.99030075299999
+926	RS Muhammadiyah Silaberanti	Rumah Sakit Umum	104.776214251	-2.99624801900001
+927	RS Pertamina Komperta	Rumah Sakit Umum	104.824304921	-2.99321702899999
+928	RS Karya Asih Charitas Srimulya	Rumah Sakit Umum	104.795509664	-2.93768144799998
+929	RS Pelabuhan Sungaibuah	Rumah Sakit Umum	104.776847634	-2.97911313399999
+930	RS Sungaikundur	Rumah Sakit Umum	104.863199878	-2.97969727100002
+931	RSU Charitas Purwodadi	Rumah Sakit Umum	105.10899168	-2.66737720899999
+932	RS R.K. Charitas Palembang	Rumah Sakit Umum	104.753865446	-2.97629460399997
+933	RS Daerah Kolonel Abundjani Merangin	Rumah Sakit Umum	102.275369346	-2.06148127400002
+934	RSUD Sarolangun	Rumah Sakit Umum	102.714307323	-2.37502204600003
+935	Balai Kesehatan Bayunglencir	Rumah Sakit Khusus	104.0965558	-1.79794170000002
+936	RSUD Sungaigelam	Rumah Sakit Umum	103.8448575	-1.74939330000001
+937	Rumah Sakit Umum Daerah Sungai Bahar	Rumah Sakit Umum	103.430609	-1.96621399999998
+938	RSUD Haji Abdoel Madjid Batoe Batanghari	Rumah Sakit Umum	103.266466	-1.70344999999998
+939	Rumah Bersalin Paal Merah	Rumah Sakit Khusus	103.644488978	-1.64905748199999
+940	Pusat Kesehatan Masyarakat Terpadu	Rumah Sakit Khusus	103.580820297	-1.64496651500002
+941	RSUD Haji Abdul Manap	Rumah Sakit Umum	103.579756986	-1.64120716299999
+942	Rumah Sakit Royal Prima	Rumah Sakit Umum	103.623889573	-1.64024564800002
+943	Klinik Bersalin Erni	Rumah Sakit Khusus	103.652385927	-1.63799607300001
+944	Rumah Bersalin Dewi Kotajambi	Rumah Sakit Khusus	103.58752872	-1.629285729
+945	Siloam Hospital	Rumah Sakit Umum	103.635580176	-1.62857951799998
+946	Nanoku Pusat Kesehatan Keluarga	Rumah Sakit Khusus	103.621553997	-1.62852843600001
+947	Rumah Bersalin Permata Bunda	Rumah Sakit Khusus	103.610171755	-1.62711958
+948	Rumah Bersalin Nurma Salim	Rumah Sakit Khusus	103.58048156	-1.62585654700001
+949	Rumah Bersalin Budi Waluyo	Rumah Sakit Khusus	103.59283724	-1.62436096699997
+950	RS Medikal Center Mayang	Rumah Sakit Khusus	103.587980716	-1.62311756499997
+951	Rumah Bersalin Permata Bunda	Rumah Sakit Khusus	103.603775271	-1.62102038299997
+952	Pusat Pengobatan Hindustan	Rumah Sakit Khusus	103.592460736	-1.61989013499999
+953	Rumah Sakit Berkah Husada Telanaipura	Rumah Sakit Umum	103.557064007	-1.61939703500002
+954	Rumah Sakit Ibu dan Anak Telanaipura	Rumah Sakit Umum	103.555806563	-1.619307306
+955	Rumah Bersalin Mawar	Rumah Sakit Khusus	103.553626747	-1.61759613499999
+956	Rumah Bersalin Wisma Yati	Rumah Sakit Khusus	103.569319299	-1.61688481700003
+957	Rumah Sakit Kambang	Rumah Sakit Umum	103.589577159	-1.61689331600002
+958	Rumah Sakit Jiwa Kotabaru	Rumah Sakit Khusus	103.551770542	-1.61410526200001
+959	RS Markuban Jambi	Rumah Sakit Khusus	103.567343226	-1.61299674700001
+960	Rumah Bersalin Ida	Rumah Sakit Khusus	103.593465833	-1.60571466699997
+961	Rumah Sakit Islam Arafah	Rumah Sakit Umum	103.602024188	-1.60283803700003
+962	RSUD Radenmattaher Jambi	Rumah Sakit Khusus	103.580294991	-1.60276646199998
+963	Laboratorium Klinik Medika	Rumah Sakit Khusus	103.618440686	-1.60175481700003
+964	Palang Merah Indonesia Jambi	Rumah Sakit Khusus	103.579063884	-1.60146343700001
+965	Rumah Sakit Bhakti Lestari	Rumah Sakit Umum	103.632071256	-1.60007055
+966	Rumah Bersalin desta	Rumah Sakit Khusus	103.575520799	-1.59780901699997
+967	Rumah Sakit Bratanata Sulanjana	Rumah Sakit Umum	103.618416983	-1.593427437
+968	RS St.Theresia	Rumah Sakit Khusus	103.617283095	-1.59190994300002
+969	RS Bhayangkara	Rumah Sakit Khusus	103.618527187	-1.58913596000002
+970	Rumah Sakit Budi Graha	Rumah Sakit Umum	103.625828171	-1.58789242099999
+971	Pusat Kesehatan Pelabuhan	Rumah Sakit Khusus	103.636308058	-1.58285879599998
+972	Bidan Sungairambai	Rumah Sakit Khusus	102.393653748	-1.36699937600002
+973	Bidan Pulauterbakar	Rumah Sakit Khusus	102.062589727	-1.93279397800001
+974	Bidan Muarakibul	Rumah Sakit Khusus	102.016522016	-1.93006722299998
+975	Bidan Tirtamulya	Rumah Sakit Khusus	102.435166395	-1.64319342900001
+976	Bidan Datar	Rumah Sakit Khusus	102.018149662	-1.57897904800001
+977	Bidan Tebat	Rumah Sakit Khusus	102.045892164	-1.530360347
+978	Bidan Mangunjoyo	Rumah Sakit Khusus	102.050008549	-1.50177875200001
+979	RSUD H.Hanafie Muarabungo	Rumah Sakit Umum	102.110390608	-1.50553120299998
+980	RSU Sultan Thaha Saifudin Muaratebo	Rumah Sakit Umum	102.440003367	-1.46777783200002
+981	Rumah Sakit Bersalin Ayumas	Rumah Sakit Khusus	102.12303995	-1.46484181900001
+982	RSU Bersaudara Muarabungo	Rumah Sakit Umum	102.124050425	-1.45391884600002
+983	Rumah Sakit DKT Sungaipenuh	Rumah Sakit Umum	101.393407033	-2.06381796300002
+984	Rumah Sakit Mayjen H.A Thalib Kota Sungai Penuh	Rumah Sakit Umum	101.390072024	-2.05849398599997
+985	Rumah Sakit Mayjen H.A Thalib Kota Sungai Penuh	Rumah Sakit Umum	101.390022006	-2.05967995600002
+986	Rumah Sakit Dkt	Rumah Sakit Umum	101.393520003	-2.06395895700001
+987	Instalasi Rawat Jalan RSUD Muko-muko	Rumah Sakit Umum	101.105909966	-2.56378900599998
+988	RSUD Muko-muko	Rumah Sakit Umum	101.144891991	-2.522038958
+989	Bidan Nani Sartika Airbatu	Rumah Sakit Khusus	101.079483721	-1.50743741500003
+990	Bidan Putri Ayunda Lubukjaring	Rumah Sakit Khusus	101.084025284	-1.51237859899999
+991	Bidan Siska Srinengsih Pauhduo	Rumah Sakit Khusus	101.085862205	-1.51677989900003
+992	Bidan Dian Balantik	Rumah Sakit Khusus	101.077785669	-1.53549410599999
+993	Bidan Mevial Renanta Jajangkambing	Rumah Sakit Khusus	101.077256672	-1.52726706599998
+994	Bidan Sisca Pangkonina	Rumah Sakit Khusus	101.141281232	-1.59534504999999
+995	Bidan Yola Batubajarang	Rumah Sakit Khusus	101.085888994	-1.54449121900001
+996	Bidan Sungaitelang	Rumah Sakit Khusus	101.789306057	-1.69662140100002
+997	Bidan Lubukkayuaro	Rumah Sakit Khusus	101.910290465	-1.656658634
+998	Bidan Lubukberingin	Rumah Sakit Khusus	101.866586248	-1.70960966400003
+999	Bidan Talangpamesun	Rumah Sakit Khusus	101.787875735	-1.22943703700003
+1000	Bidan Alfianotasari Arniza Batubajarang	Rumah Sakit Khusus	101.086864794	-1.54094609800001
+1001	Bidan Nengsih Ampalu	Rumah Sakit Khusus	100.690185955	-1.53222968799997
+1002	Bidan Hj Enirum Ampingparak	Rumah Sakit Khusus	100.660415204	-1.63072924599999
+1003	Bidan Salhuda Noverma Ujungjalan	Rumah Sakit Khusus	101.073864829	-1.52217107400003
+1004	RSUD Solok Selatan	Rumah Sakit Umum	101.061476945	-1.485023017
+1005	RSUD Dr. Muhammad Zain Pesisir Selatan	Rumah Sakit Umum	100.579887	-1.345015999
+1006	RSU BKM Karangsago	Rumah Sakit Umum	100.554994	-1.31788299999999
+1007	RSUD Sawahlunto	Rumah Sakit Umum	100.7789749	-0.683291100000019
+1008	RSUD Dr. Achmad Mochtar Bukittinggi	Rumah Sakit Umum	100.366734474	-0.298801561000005
+1009	Rumah Bersalin Sulia Bukittinggi	Rumah Sakit Khusus	100.364583824	-0.298673928000028
+1010	RS Khusus THT Dan Bedah	Rumah Sakit Umum	100.36543392	-0.301731618000019
+1011	Rumah Bersalin Aria Bunda	Rumah Sakit Khusus	100.376064446	-0.302370660000008
+1012	RS Islam Ibnusina Bukittinggi	Rumah Sakit Umum	100.370796371	-0.310826745999975
+1013	RS Madina Bukittinggi	Rumah Sakit Umum	100.374248764	-0.311190913000019
+1014	RS Tentara IV Bukittinggi	Rumah Sakit Umum	100.371990445	-0.312633926999979
+1015	RSUD Achmad Darwis Suliki	Rumah Sakit Umum	100.465003	-0.0996969999999919
+1016	RS Umum Mutiara Biru Agam	Rumah Sakit Umum	99.9479565	-0.414861599999995
+1017	RS Ibu Dan Anak	Rumah Sakit Umum	100.0424278	-0.322744300000011
+1018	RSU Lubukbasung	Rumah Sakit Umum	100.0315573	-0.314000099999987
+1019	RSUD Prof. Dr. Ma Hanafiah Sm Batusangkar	Rumah Sakit Umum	100.599472194	-0.450732071000004
+1020	RS Prof Dr. MA Hanapiah Batusangkar	Rumah Sakit Umum	100.599771147	-0.451424436000025
+1021	RSUD Gunungtalang	Rumah Sakit Umum	100.613125	-0.946984998999994
+1022	RS Ibu dan Anak Permata Bunda Solok	Rumah Sakit Umum	100.663930658	-0.801805349999995
+1023	RSUD Solok	Rumah Sakit Umum	100.668202324	-0.801482557999975
+1024	RS Bersalin Pasirjambak	Rumah Sakit Umum	100.3320933	-0.845577499000001
+1025	RSUD Dr. Rasidin Padang	Rumah Sakit Umum	100.3939595	-0.879628301000025
+1026	Rumah Sakit Indarung Dua	Rumah Sakit Umum	100.475025518	-0.949004300000013
+1027	RS Islam Siti Rahmah	Rumah Sakit Umum	100.384074115	-0.871055006999995
+1028	RS Ibnusina	Rumah Sakit Umum	100.400525144	-0.460849040000028
+1029	RSUD Padangpanjang	Rumah Sakit Umum	100.418437436	-0.46002947300002
+1030	RS TMC Pariaman	Rumah Sakit Umum	100.128928448	-0.638002574999973
+1031	RS Medika Pariaman	Rumah Sakit Umum	100.1262056	-0.631040701000018
+1032	RSUD Padangpariaman	Rumah Sakit Umum	100.28132	-0.616975000000025
+1033	Bidan Leli Herawati Mondang	Rumah Sakit Khusus	99.958135497	0.986477499999978
+1034	Rumah Bersalin Umum Lia Lumbandolok	Rumah Sakit Khusus	99.510043002	0.999012401000016
+1035	RSU Permata Madina Panyabungan	Rumah Sakit Umum	99.561792295	0.871971495000025
+1036	RSU Armana Kayujat Panyabungan	Rumah Sakit Umum	99.562619	0.864817898000013
+1037	RS Ibnu Sina Pasaman Barat	Rumah Sakit Umum	99.8272592	0.107924000000025
+1038	RSUD Pasaman Barat	Rumah Sakit Umum	99.817148	0.0528489999999806
+1039	RSUD Pasaman	Rumah Sakit Umum	100.167521692	0.140145099999984
+1040	RS Natal	Rumah Sakit Umum	99.111869	0.556797899999992
+1041	RSUD Sipirok	Rumah Sakit Umum	99.2671378	1.60346909999998
+1042	RS TNI AD	Rumah Sakit Khusus	98.80013	1.72765700000002
+1043	RSU Sayang Ibu	Rumah Sakit Umum	99.2710555	1.3716134
+1044	UPT Balai Keswan	Rumah Sakit Khusus	99.3044508	1.33631500000001
+1045	RS TNI AD Padangsidimpuan	Rumah Sakit Khusus	99.2500228	1.39610870000001
+1046	RSUD Bagian Mata Padangsidimpuan	Rumah Sakit Umum	99.2759447	1.3755324
+1047	Pusat Kesehatan Hewan Hadungdung	Rumah Sakit Khusus	99.6497988	1.45091939999998
+1048	RSUD Padanglawas Utara	Rumah Sakit Umum	99.6435702	1.4642523
+1049	RSUD Kota Sibolga	Rumah Sakit Umum	98.7778736	1.74388740000001
+1050	RS Meta Medika	Rumah Sakit Umum	98.7816241	1.74128949999999
+1051	RSU Padanglawas	Rumah Sakit Umum	99.735855101	1.05054710399997
+1052	RSUD Kotapinang	Rumah Sakit Umum	100.093905573	1.89335001199998
+1053	RS Bersalin Nirmala Pahieme	Rumah Sakit Khusus	98.57445	1.91291111100003
+1054	RSUD Aekkanopan	Rumah Sakit Umum	99.653835433	2.56761894300001
+1055	Rumah Sakit Indrya Husada PTPN Tiga	Rumah Sakit Khusus	99.660714382	2.55357389400001
+1056	Rumah Sakit Radiva Ledong Timur	Rumah Sakit Khusus	99.652756763	2.58156693400002
+1057	Persiapan RSU Negerilama	Rumah Sakit Khusus	100.086430899	2.31436133599999
+1058	RSU Parparean Dua	Rumah Sakit Umum	99.156690843	2.43418105299997
+1059	Rumah Sakit Kusta Hutasalam Sintongmarnipi	Rumah Sakit Khusus	99.158564361	2.34060138199999
+1060	Rumah Sakit HKBP Balige Satu	Rumah Sakit Khusus	99.066887211	2.33086404199997
+1061	RSU Parapat	Rumah Sakit Umum	98.950822675	2.66442003200001
+1062	RSU Pangururan	Rumah Sakit Umum	98.707252444	2.596235853
+1063	RSU Pusat Sidikalang	Rumah Sakit Umum	98.319507274	2.73963956400002
+1064	RSUD Doloksanggul	Rumah Sakit Umum	98.751487681	2.26238850200002
+1065	Rumah Sakit HKBP Nainggolan	Rumah Sakit Khusus	98.887382642	2.436359262
+1066	Rumah Sakit Umum Hadi Husada Tanjungbalai	Rumah Sakit Umum	99.804747494	2.96298765500001
+1067	Rumah Sakit Umum Simatupang	Rumah Sakit Umum	99.622116423	2.981253165
+1068	Rumah Sakit Satio Husodo	Rumah Sakit Umum	99.632590018	2.98049583599999
+1069	Rumah Sakit Seidadap	Rumah Sakit Umum	99.667595019	2.953453782
+1070	Rumah Sakit Umum H. Djamaludin Kisaran	Rumah Sakit Umum	99.611890356	2.97897478099998
+1071	Rumah Sakit Umum Ibu Kartini	Rumah Sakit Umum	99.607370825	2.97416379600003
+1072	Rumah Sakit Ibu dan Anak Namaryna	Rumah Sakit Umum	99.632939977	2.96299112499997
+1073	Rumah Sakit Insani Sumberjaya	Rumah Sakit Umum	99.079606069	2.978586135
+1074	Rumah Sakit Perumnas Batu Enam Lestariindah	Rumah Sakit Umum	99.133820169	2.968018546
+1075	Rumah Sakit Denkesyah Siantar Barat	Rumah Sakit Umum	99.057627333	2.95149614600001
+1076	Rumah Sakit Umum Harapan Pematangsiantar	Rumah Sakit Umum	99.066086226	2.94199608399998
+1077	Rumah Sakit Umum Vita Insani Pematangsiantar	Rumah Sakit Umum	99.071641001	2.96126155899998
+1078	Rumah Sakit Umum Pematangsiantar	Rumah Sakit Umum	99.069694428	2.95851607600002
+1079	Rumah Sakit Suaka Insan Pematangsiantar	Rumah Sakit Umum	99.051967039	2.95830884499998
+1080	Rumah Sakit Umum Manuela Pematangsiantar	Rumah Sakit Umum	99.045821049	2.95740451900002
+1081	Rumah Sakit Balimbingan	Rumah Sakit Umum	99.166725979	2.891973366
+1082	Rumah Sakit GKPS Pematangraya	Rumah Sakit Umum	98.844556172	2.96521105400001
+1083	RSU Kasih Ibu Rantauutara	Rumah Sakit Umum	99.822280546	2.095141641
+1084	RSUD Tarutung	Rumah Sakit Umum	98.961072222	2.02677222300002
+1085	Pondok Bersalin Sisoding	Rumah Sakit Khusus	98.792857583	2.11802849100002
+1086	Rumah Sakit Bersalin Santa Maria Pangaribuan	Rumah Sakit Khusus	98.407049194	2.06781863999998
+1087	RSUD Kampungsolok	Rumah Sakit Umum	98.398772223	2.01283888900002
+1088	Panti Rehabilitasi Santo Antonius Besamat	Rumah Sakit Khusus	98.722729118	3.35183431600001
+1089	RSU Sembiring Delitua Barat	Rumah Sakit Umum	98.683391158	3.48770605800001
+1090	RSU Theotokos Delitua	Rumah Sakit Umum	98.666904354	3.49339984300002
+1091	RSU Anirma Delitua	Rumah Sakit Umum	98.682920997	3.49365871999998
+1092	RSUD H. Syahudin Kutacane Purwodadi	Rumah Sakit Umum	97.797984752	3.522354683
+1093	RSU Bidadari Kebunlada	Rumah Sakit Umum	98.492700548	3.62942784900002
+1094	RS Umum Tebingtanjungselamat	Rumah Sakit Umum	98.272381746	3.75723545699998
+1095	Rumah Sakit Umum INSANI Stabat	Rumah Sakit Umum	98.457331945	3.76224649900001
+1096	Rumah Sakit Umum Pekantanjungpura	Rumah Sakit Umum	98.426276748	3.90323365299997
+1097	Rumah Bersalin Indah Delitua	Rumah Sakit Khusus	98.670348589	3.50483625099997
+1098	Rumah Sakit Umum Hidayah Sukamakmur	Rumah Sakit Umum	98.679645657	3.51473672499998
+1099	RSU H. Adam Malik Kemenangantani	Rumah Sakit Umum	98.610003067	3.51791268400001
+1100	Rumah Sakit Umum Ar Ridho Gedungjohor	Rumah Sakit Umum	98.67541271	3.518598252
+1101	RS Bukit Permai Simpangselayang	Rumah Sakit Umum	98.618708585	3.51979802599999
+1102	Rumah Sakit jiwa Daerah Mangga	Rumah Sakit Umum	98.628953728	3.52170199900002
+1103	RS Jiwa Bona Karsa Simpangselayang	Rumah Sakit Umum	98.630562386	3.52920242300002
+1104	RSU Mitra Sejati Pangkalanmasyhur	Rumah Sakit Umum	98.680285001	3.54079181200001
+1105	RSU Fajar Sarirejo	Rumah Sakit Umum	98.669558924	3.54839640799997
+1106	RSU Methodist Tanjungsari	Rumah Sakit Umum	98.637638157	3.55492523200002
+1107	RSU Ridos Medan Tenggara	Rumah Sakit Umum	98.717609692	3.55604793499998
+1108	RS Estomihi Sudirejo Dua	Rumah Sakit Umum	98.694928774	3.55671919999997
+1109	RSU Margareth Tanjungsari	Rumah Sakit Umum	98.626308969	3.56099108199999
+1110	Rumah Bersalin Sari Sudirejo Satu	Rumah Sakit Khusus	98.700059522	3.561190028
+1111	RSU Bahagia Teladan Timur	Rumah Sakit Umum	98.701733688	3.56292756699997
+1112	Rumah Bersalin Maria Teladan Timur	Rumah Sakit Khusus	98.697654606	3.56387615
+1113	Rumah Sakit USU Merdeka	Rumah Sakit Umum	98.657450808	3.567598347
+1114	RSU Harapan Mama Medan Tenggara	Rumah Sakit Umum	98.724142413	3.56975590799999
+1115	RSU Prof. Dr. Boloni Polonia	Rumah Sakit Umum	98.668596418	3.57108546699999
+1116	RSU Siti Hajar Merdeka	Rumah Sakit Umum	98.660429754	3.57128150400001
+1117	RS TNI AU Sukadamai	Rumah Sakit Umum	98.677308051	3.57209407599998
+1118	RS Stella Maris Jati	Rumah Sakit Umum	98.680706787	3.57263878999998
+1119	RS Setia Budi Tanjungrejo	Rumah Sakit Umum	98.64334853	3.57317483399999
+1120	RSI Al Ummah Kotamatsum Dua	Rumah Sakit Umum	98.699731174	3.57415403900001
+1121	RS Shanta Elisabeth Jati	Rumah Sakit Umum	98.676608382	3.57555746000003
+1122	RS Ibu Dab Anak Badrul Aini Tegalsari Tiga	Rumah Sakit Umum	98.705636838	3.57721379100002
+1123	RSU Bina Kasih Sunggal	Rumah Sakit Umum	98.613057125	3.57826489399997
+1124	RSU Herna Petisah Hulu	Rumah Sakit Umum	98.665766128	3.579497968
+1125	RS Adenin Adenan Masjid	Rumah Sakit Umum	98.685809093	3.57965888000001
+1126	RSU Rahmat Setia Denai	Rumah Sakit Umum	98.729154567	3.58023366700002
+1127	RSUD Permata Bunda Masjid	Rumah Sakit Umum	98.685511632	3.58061773999998
+1128	Hayamwuruk Medical Center Petisah Hulu	Rumah Sakit Umum	98.663289257	3.58157782400002
+1129	RSU Muhammadiyah Tegalsarimandala Satu	Rumah Sakit Umum	98.710803361	3.58296923400002
+1130	Rumah Sakit Methodis Seirengaspermata	Rumah Sakit Umum	98.692587856	3.58355132299999
+1131	RSU Materna Petisahtengah	Rumah Sakit Umum	98.671247806	3.58450284399999
+1132	RSU Bunda Thamrin Seisikambing D	Rumah Sakit Umum	98.651366593	3.58499303600001
+1133	RS Bunda Tamrin Seisikambing D	Rumah Sakit Umum	98.650304095	3.58503786199998
+1134	Rs Bersalin Bromo II Tembung	Rumah Sakit Umum	98.738175223	3.58536586999998
+1135	Rumah Sakit Columbia Asia Petisahtengah	Rumah Sakit Umum	98.676884028	3.58548191400001
+1136	Rumah Sakit Umum Deli Pusatpasar	Rumah Sakit Umum	98.688382088	3.58606491299997
+1137	Rumah Sakit Islam Malahayati Petisahtengah	Rumah Sakit Umum	98.672660616	3.58684647600001
+1138	RSU Sarah Petisahtengah	Rumah Sakit Umum	98.663089078	3.58728628300003
+1139	Rumah Sakit Khusus Bedah Kenanganbaru	Rumah Sakit Umum	98.723659691	3.58814801699998
+1140	RS Rasivia Gangbuntu	Rumah Sakit Umum	98.682285162	3.589346804
+1141	RSU Advent Medan Seisikambing D	Rumah Sakit Umum	98.649878923	3.59023960299999
+1142	Rumah Sakit Hisarma AKBPER Seisikambing C Dua	Rumah Sakit Umum	98.641892029	3.59083358499998
+1143	RS Ibu & Anak Petisahtengah	Rumah Sakit Umum	98.66496062	3.59089664700002
+1144	RSU Bandung Seiputih Barat	Rumah Sakit Umum	98.65004934	3.59197665200003
+1145	Rumah Bersalin Kasih Ibu Sejati Seisikambing C Dua	Rumah Sakit Khusus	98.644642764	3.59440433399999
+1146	RSU Mandala Bantan Timur	Rumah Sakit Umum	98.711591685	3.59584314099999
+1147	Rumah Sakit Mandiri Perintis	Rumah Sakit Umum	98.683975472	3.596530567
+1148	RSU Full Bethesda Payageli	Rumah Sakit Umum	98.589881785	3.59651108000003
+1149	Rumah Bersalin Bunda Natama Seisikambing C Dua	Rumah Sakit Khusus	98.644816067	3.59679655999997
+1150	RSU Martondi Bandarselamat	Rumah Sakit Umum	98.716606569	3.59740077499998
+1151	RSU Sari Mutiara Dwikora	Rumah Sakit Umum	98.644023223	3.59801756600001
+1152	RSU Tembakau Deli Kesewan	Rumah Sakit Umum	98.673908033	3.59855349600002
+1153	RSU Dr. Pringadi Perintis	Rumah Sakit Umum	98.687963646	3.59858557299998
+1154	RSU Melati Gaharu	Rumah Sakit Umum	98.679094193	3.59936050900001
+1155	RSU Kesdam Kesewan	Rumah Sakit Umum	98.673403458	3.59950322999998
+1156	RSU Latersia Sumbermelati	Rumah Sakit Umum	98.53994209	3.60236751000002
+1157	RS Harapan Ibu Seiagul	Rumah Sakit Umum	98.655519312	3.60410144100001
+1158	RSU Latersia Sumberkarya	Rumah Sakit Umum	98.522894676	3.607388641
+1159	Rumah Bersalin Sejahtera Karangberombak	Rumah Sakit Khusus	98.665493323	3.61156878399999
+1160	Rumah Sakit Haji Medanestate	Rumah Sakit Umum	98.714881573	3.61403737900002
+1161	RSU Helvetia	Rumah Sakit Umum	98.649941322	3.61545302000002
+1162	RSU Sufinah Aziz Helvetia Timur	Rumah Sakit Umum	98.66301513	3.61697784900002
+1163	RSI Anak Glugurdarat Satu	Rumah Sakit Umum	98.678232207	3.61806901
+1164	RSU Imelda Pekerja Indonesia	Rumah Sakit Umum	98.675105857	3.62315219700002
+1165	Rumah Bersalin Ibu Anak Pulobrayan Bengkelbaru	Rumah Sakit Khusus	98.685565628	3.633107397
+1166	RSU Martha Friska Hospital Pulobrayankota	Rumah Sakit Umum	98.66902407	3.63349952499999
+1167	RSU Sinar Murni Helvetia	Rumah Sakit Umum	98.663557747	3.63497212499999
+1168	Rsu mitra Andika Tanjungmuliahilir	Rumah Sakit Umum	98.662798008	3.64399149100001
+1169	Rsu Maya Sari Rengaspulau	Rumah Sakit Umum	98.657536105	3.69959100699998
+1170	IGD Uayah Bunda Pekanlabuhan	Rumah Sakit Umum	98.674718151	3.748504416
+1171	Rumah Sakit Umum Sawit Indah Batangterap	Rumah Sakit Umum	98.951683741	3.57468153600001
+1172	Rumah Sakit Umum Melati Simpangtigapekan	Rumah Sakit Umum	98.95908552	3.56631345900001
+1173	RSUD Deli Serdang Lubukpakam Satu-Dua	Rumah Sakit Umum	98.867443539	3.557176427
+1174	RS Umum Sari Mutiara Pakamkota	Rumah Sakit Umum	98.878896903	3.55464486400001
+1175	RS Umum Mutiara Lubukpakam Tiga	Rumah Sakit Umum	98.87891492	3.55457249099999
+1176	Rumah Sakit Grand Medistra Petapahan	Rumah Sakit Umum	98.853389175	3.55208086900001
+1177	Rumah Sakit Umum Yosuha Petapahan	Rumah Sakit Umum	98.859448848	3.55176517199999
+1178	RS Umum Nur Sa'adah Bangunsari	Rumah Sakit Umum	98.750967001	3.529975417
+1179	Rumah Sakit Umum Dagangkerawan	Rumah Sakit Umum	98.794692824	3.51115047000002
+1180	Rumah Sakit Kita TNI AL Belawan Satu	Rumah Sakit Umum	98.686268756	3.78418012499998
+1181	Rumah Sakit Bersalin Rose Belawan Satu	Rumah Sakit Khusus	98.681104387	3.77009239900002
+1182	Rumah Sakit Pahlawan Medan Belawanbahagia	Rumah Sakit Umum	98.682448225	3.764719103
+1183	Rumah Sakit Kusta Pulau Sicanang Belawansicanang	Rumah Sakit Umum	98.65957672	3.75571795799999
+1184	Rumah Sakit Umum Brandan Pelawi Utara	Rumah Sakit Umum	98.298939572	4.00685155399998
+1185	Rumah Sakit Pertamina Pangkalan Brandan Barat	Rumah Sakit Umum	98.283740211	4.02060662299999
+1186	Rumah Sakit Kusta Belidahan Simpangempat	Rumah Sakit Khusus	99.098232569	3.46339995199997
+1187	RSU Melati Pon Seibamban	Rumah Sakit Umum	99.156931511	3.45733056099999
+1188	Rumah Sakit Sri Pamela Sripadang	Rumah Sakit Umum	99.164518699	3.337221865
+1189	RSUD DR. H. Kumpulan Pane Pasarbaru	Rumah Sakit Umum	99.155479663	3.32988624799998
+1190	RSU Prima Indonesia Tebingtinggilama	Rumah Sakit Umum	99.168028167	3.329784663
+1191	Rumah Sakit PT Inalum Tanjunggading	Rumah Sakit Umum	99.344474994	3.31399708599997
+1192	Rumah Sakit Ibu Dan Anak Tanahtinggi	Rumah Sakit Khusus	99.369359282	3.25156496900001
+1193	Rumah Sakit Umum Perdagangan	Rumah Sakit Umum	99.315613995	3.16272524200002
+1194	Rumah Sakit Efarina Etaham Berastagi	Rumah Sakit Umum	98.507523016	3.14550352200001
+1195	Rumah Sakit Umum Kabanjahe	Rumah Sakit Umum	98.491687899	3.09836265000001
+1196	Rumah Sakit Kusta Lausimono	Rumah Sakit Umum	98.446846135	3.076347226
+1197	Rumah Sakit Ester Kabanjahe	Rumah Sakit Umum	98.489129666	3.10333709100001
+1198	 	Rumah Sakit Umum	103.824020069	-1.23844843799998
+1199	 	Rumah Sakit Umum	103.518423896	-1.454174481
+1200	 	Rumah Sakit Umum	103.434648918	0.989561577000018
+1201	 	Rumah Sakit Umum	103.413731389	1.01250462600001
+1202	 	Rumah Sakit Umum	104.251212986	1.04981077399998
+1203	 	Rumah Sakit Umum	104.027030693	1.07729482299999
+1204	 	Rumah Sakit Umum	104.386295328	-0.643552270999976
+1205	 	Rumah Sakit Umum	104.402943156	-0.409884166999973
+1206	 	Rumah Sakit Umum	104.39472825	-0.289289673999974
+1207	 	Rumah Sakit Umum	104.460183293	-0.328176604000021
+1208	 	Rumah Sakit Umum	104.317128689	-0.535019721000026
+1209	 	Rumah Sakit Umum	104.650417608	0.0425849069999913
+1210	 	Rumah Sakit Umum	104.335825246	-0.388474359999975
+1211	 	Rumah Sakit Umum	104.450388128	-0.463164717999973
+1212	 	Rumah Sakit Umum	104.542334884	-0.396947123000018
+1213	 	Rumah Sakit Umum	104.559610748	-0.490458264999972
+1214	 	Rumah Sakit Umum	104.467987567	-0.24100996300001
+1215	 	Rumah Sakit Umum	104.481990955	-0.161650746000021
+1216	 	Rumah Sakit Umum	104.756449376	-0.202911298000004
+1217	 	Rumah Sakit Umum	104.61327512	-0.138918312999976
+1218	 	Rumah Sakit Umum	104.593179224	-0.225987101999976
+1219	 	Rumah Sakit Umum	104.606461461	-0.224205191999999
+1220	 	Rumah Sakit Umum	104.614217154	-0.214371196000002
+1221	 	Rumah Sakit Umum	104.631761266	-0.0757244409999771
+1222	 	Rumah Sakit Umum	104.737226527	-0.218734577000021
+1223	 	Rumah Sakit Umum	104.678831591	-0.188045434000003
+1224	 	Rumah Sakit Umum	104.641770328	-0.205596148999973
+1225	 	Rumah Sakit Umum	104.441652741	0.926010818999998
+1226	 	Rumah Sakit Umum	104.441715513	0.925891361000026
+1227	 	Rumah Sakit Umum	104.235288583	0.541695360999995
+1228	 	Rumah Sakit Umum	104.221663445	0.556140819999996
+1229	 	Rumah Sakit Umum	104.232524919	0.700035655000022

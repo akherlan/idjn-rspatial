@@ -89,6 +89,7 @@ if(!require("sf")) install.packages("sf")
 if(!require("dplyr")) install.packages("dplyr")
 if(!require("rnaturalearth")) install.packages("rnaturalearth")
 if(!require("mapview")) install.packages("mapview")
+if(!require("ggplot2")) install.packages("ggplot2")
 ```
 
 ## Data Preparation
@@ -256,6 +257,7 @@ Sekian. Terima kasih.
 - Modifikasi data spasial kelas `sf` | [tidy sf](http://strimas.com/r/tidy-sf/)
 - Cara menggunakan `esri2sf` | [Materi meet up lalu oleh @wanulfa](https://github.com/wanulfa/argis-server)
 - Plotting peta dengan `sf` dan `ggplot2` | [artikel](https://www.r-bloggers.com/zooming-in-on-maps-with-sf-and-ggplot2/)
+- Pasangan key-value yang bisa digunakan | [OSM's map features](https://wiki.openstreetmap.org/wiki/Map_Features)
 - Buku [Geocomputational in R](https://geocompr.robinlovelace.net/spatial-class.html) oleh Robin Lovelace & Jakub Nowosad
 
 **Gambar:**
