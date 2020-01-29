@@ -1,5 +1,6 @@
 library(osmdata)
 library(sf)
+library(mapview)
 
 available_tags("amenity")
 
@@ -22,6 +23,7 @@ colnames(bbox_java) <- c("min", "max")
 bbox.java
 
 # buat query osmdata
+library(dplyr)
 q <-
   bbox.jak %>% 
   opq(timeout = 250) %>% 
@@ -29,6 +31,7 @@ q <-
 
 # ambil data dari osm dalam format sf
 rs.jak <- osmdata_sf(q)
+mapview(rs.jak$osm_polygons, label = rs.jak$osm_polygons$name)
 
 # untuk perbandingan data (credit to: Open Data Jakarta)
 rsdatjak <- read.csv("data/rs_data_jakarta.csv", stringsAsFactors = F)
@@ -41,7 +44,7 @@ nrow(rsdatjak)
 rsosmjak <- st_centroid(rs.jak$osm_polygons)
 
 # mengamati data
-mapview(rsosmjak)
+mapview(rsosmjak, label = rsosmjak$name)
 as.factor(rsosmjak$addr.city)
 rsjak <- dplyr::filter(rsosmjak, addr.city == "DKI Jakarta")
 nrow(rsjak)

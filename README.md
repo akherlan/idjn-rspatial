@@ -16,8 +16,8 @@ usethis::use_course("https://github.com/akherlan/idjn-rspatial/archive/master.zi
 - Pengenalan [#rspatial](https://twitter.com/hashtag/rspatial?src=hashtag_click)
 - Menyiapkan data
 - Memeriksa tipe & struktur data
-- *Exploratory Data Analysis*
-- ~Modifikasi data spasial~
+- Eksplorasi data
+- Modifikasi data spasial
 - Analisis
 
 ### Piranti yang perlu disiapkan:
@@ -34,7 +34,7 @@ usethis::use_course("https://github.com/akherlan/idjn-rspatial/archive/master.zi
 - RStudio | [unduh](https://rstudio.com/products/rstudio/download/)
 - GEOS, GDAL, PROJ | [konfigurasi](https://github.com/r-spatial/sf/#linux)
 
-*Instalasi paket dari console di RStudio*
+**Instalasi paket dari console di RStudio**
 
 ```R
 install.packages("dplyr")

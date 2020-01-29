@@ -70,16 +70,9 @@ Apa sebenarnya datum?
 
 **Linux & MacOS:**
 
-- R
+- R | [instalasi](https://r-spatial.github.io/sf/#linux)
 - RStudio | [unduh](https://rstudio.com/products/rstudio/download/)
 - GDAL, GEOS, PROJ | [konfigurasi](https://r-spatial.github.io/sf/#installing)
-
-*Instalasi R di Ubuntu*
-
-```{}
-sudo apt-get update
-sudo apt-get install r-base
-```
 
 **Library (Windows, MacOS, Linux):**
 
@@ -106,7 +99,7 @@ Mengetahui kelas data/objek dan strukturnya:
 
 ```{R struktur data}
 class(rs)
-print(rs, n = 5)
+print(rs)
 ```
 
 ## Plot Data Spasial Menggunakan `sf`
