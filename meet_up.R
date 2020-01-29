@@ -14,14 +14,14 @@ class(rs)   # simple feature
 typeof(rs)
 str(rs)
 
-# 3. Exploring data ----
+# 3. Eksplor data ----
 print(rs)
 head(rs)
 tail(rs)
 
 rs[,1:2]
 rs[rs$REMARK=="Rumah Sakit Khusus",]
-head(rs[rs$REMARK=="Rumah Sakit Khusus",]$ALAMAT, 10)
+head(rs[rs$REMARK=="Rumah Sakit Khusus",]$NAMOBJ, 10)
 
 # basic R plot
 library(sf)
@@ -76,7 +76,7 @@ mapview(
 rsjak <- readRDS("data/data_rs_jakarta.rds")
 
 # muat peta dari format Esri shapefile
-jakarta <- read_sf("data/peta/jakarta.shp")
+jakarta <- read_sf("data/peta/jakarta_kota.shp")
 
 # plot rs jakarta ke peta
 plot(st_geometry(jakarta), graticule = TRUE, axes = TRUE)
@@ -85,98 +85,80 @@ ggplot() +
   geom_sf(data = rsjak) +
   theme_bw()
 
-# 4. Analisis ----
-# perbandingan crs, proyeksi, unit
+# 4. Modifikasi data ----
+# sortir dan pilah data
+rsjak <- rsjak[rsjak$name != "RSUD Kepulauan Seribu",]
+
+# modifikasi crs, proyeksi, unit
 st_bbox(rsjak)
 st_bbox(jakarta)
 
 st_crs(rsjak)
 st_crs(jakarta)
 
-# mengubah crs, memiliki unit = meter
 rsjak.m <- st_transform(rsjak, crs = 32748)
 
+# kita coba plot lagi
 ggplot() +
   geom_sf(data = jakarta) +
   geom_sf(data = rsjak.m) +
-  theme_bw() +
+  theme_bw()
 
-# kota pontianak
-pontianak <- read_sf("data/peta/pontianak_kota.shp") # data
-st_crs(pontianak)
-st_crs(rs)
+# hilangkan di Tangsel
+rsjak.m <- st_intersection(rsjak.m, jakarta)
 
-crs.idn <- 23838 # ambil dari web epsg.io
-
-pontianak.idn <- st_transform(pontianak, crs.idn)
-rs.idn <- st_transform(rs, crs.idn)
-
-st_crs(pontianak.idn)
-st_crs(rs.idn)
-
-# plot rs ke peta pontianak
-pontianak %>% 
-  st_geometry() %>% 
-  plot(graticule = TRUE, axes = TRUE)
-
-aoi <- st_bbox(pontianak.idn)
-
+# final data?
 ggplot() +
-  geom_sf(data = pontianak.idn) +
-  geom_sf(
-    data = rs.idn,
-    col = "red",
-    alpha = 0.4
-  ) +
-  coord_sf(xlim = as.vector(aoi)[c(1,3)], 
-           ylim = as.vector(aoi)[c(2,4)]) +
-  ggthemes::theme_map()
+  geom_sf(data = jakarta) +
+  geom_sf(data = rsjak.m) +
+  theme_bw()
 
+# 5. Analisis ----
 # kategori area layanan kesehatan
-dekat <- st_buffer(st_geometry(rs.idn), dist = 1000)
-sedang <- st_buffer(st_geometry(rs.idn), dist = 2000)
-jauh <- st_buffer(st_geometry(rs.idn), dist = 3000)
+dekat <- st_buffer(st_geometry(rsjak.m), dist = 1000)
+sedang <- st_buffer(st_geometry(rsjak.m), dist = 2000)
+jauh <- st_buffer(st_geometry(rsjak.m), dist = 3000)
 
 # plot area layanan
-pontianak.idn %>% 
+jakarta %>% 
   st_geometry() %>% 
   plot(border = "gray")
 
-rs.idn %>%
-  st_crop(aoi) %>% 
+aoi <- st_bbox(jakarta)
+
+rsjak.m %>%
   st_geometry() %>% 
   plot(add = TRUE)
 
 dekat %>%
-  st_crop(aoi) %>% 
   st_geometry() %>% 
   plot(add = TRUE, border = "green")
 
 sedang %>%
-  st_crop(aoi) %>% 
   st_geometry() %>% 
   plot(add = TRUE, border = "blue")
 
 jauh %>%
-  st_crop(aoi) %>% 
   st_geometry() %>% 
   plot(add = TRUE, border = "red")
 
-# perbandingan:
-# pontianak
-ggplot() +
-  geom_sf(data = pontianak) +
-  ggthemes::theme_map() +
-  geom_sf(data = st_crop(st_geometry(sedang), aoi),
-          fill = "green", size = 0,
-          alpha = 0.1) +
-  geom_sf(data = st_crop(rs.idn, aoi), col = "#2f6f40", size = 0.7)
+# Perbandingan:
+# Palembang
+palembang <- read_sf("data/peta/palembang_kota.shp")
+rspal <- readRDS("data/data_rs_palembang.rds")
+rspal.m <- st_transform(rspal, crs = 32748)
 
-# jakarta
-ggplot() +
-  geom_sf(data = jakarta) +
-  ggthemes::theme_map() +
-  geom_sf(data = st_geometry(st_buffer(rsjak.m, 2000)),
-          fill = "green", size = 0,
-          alpha = 0.1) +
-  geom_sf(data = rsjak.m, col = "#2f6f40", size = 0.7)
+palembang %>% 
+  st_geometry() %>% 
+  plot(border = "gray")
+
+layanan <- st_buffer(st_geometry(rspal.m), dist = 2000)
+bbox.pal <- st_bbox(palembang)
+
+rspal.m %>%
+  st_geometry() %>% 
+  plot(add = TRUE)
+
+layanan %>%
+  st_geometry() %>% 
+  plot(add = TRUE, border = "blue")
